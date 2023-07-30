@@ -6,5 +6,14 @@
     <description>Recent content in Jurusan Ilmu Perpustakaan on Jurusan Ilmu Perpustakaan UIN Jakarta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>karim</title>
+      <link>http://example.org/karim/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/karim/</guid>
+      <description>rte</description>
+    </item>
+    
   </channel>
 </rss>
