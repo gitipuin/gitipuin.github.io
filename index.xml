@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jurusan Ilmu Perpustakaan on Jurusan Ilmu Perpustakaan UIN Jakarta</title>
-    <link>http://example.org/</link>
+    <link>https://uin-ipi.github.io/</link>
     <description>Recent content in Jurusan Ilmu Perpustakaan on Jurusan Ilmu Perpustakaan UIN Jakarta</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>id</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>id</language><atom:link href="https://uin-ipi.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>karim</title>
-      <link>http://example.org/karim/</link>
+      <link>https://uin-ipi.github.io/karim/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/karim/</guid>
+      <guid>https://uin-ipi.github.io/karim/</guid>
       <description>rte</description>
     </item>
     
