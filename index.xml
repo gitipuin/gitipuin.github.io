@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>id</language><atom:link href="https://uin-ipi.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Docus Single</title>
+      <link>https://uin-ipi.github.io/docs/karim/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uin-ipi.github.io/docs/karim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>test</title>
       <link>https://uin-ipi.github.io/test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
