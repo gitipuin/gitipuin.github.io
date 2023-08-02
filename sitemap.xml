@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://uin-ipi.github.io/categories/</loc>
-  </url><url>
-    <loc>https://uin-ipi.github.io/docs/</loc>
-  </url><url>
-    <loc>https://uin-ipi.github.io/docs/karim/</loc>
-  </url><url>
-    <loc>https://uin-ipi.github.io/</loc>
-  </url><url>
-    <loc>https://uin-ipi.github.io/course/</loc>
-  </url><url>
-    <loc>https://uin-ipi.github.io/news/</loc>
-  </url><url>
-    <loc>https://uin-ipi.github.io/tags/</loc>
-  </url><url>
-    <loc>https://uin-ipi.github.io/test/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>https://uin-ipi.github.io/en/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://uin-ipi.github.io/id/sitemap.xml</loc>
+    
+  </sitemap>
+  
+</sitemapindex>
