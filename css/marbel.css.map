@@ -3,7 +3,7 @@
 	"file": "marbel.css",
 	"sourceRoot": "/home/karim/Productions/uin-ipi/engine",
 	"sources": [
-		"themes/corest/assets/sass/marbel/main.sass"
+		"themes/based/assets/sass/marbel/main.sass"
 	],
 	"sourcesContent": [
 		".marbel {\n    .footer {\n        p, a {\n            font-size: .82em; }\n        .credit {\n            align-items: center; }\n        .name .leads {\n            padding: 0; }\n        .upper {\n            @media screen and (max-width: 720px) {\n                grid-column: 1 / span 6 ; }\n            .grid-2 {\n                @media screen and (max-width: 720px) {\n                    grid-template-columns: auto auto; } } }\n        .menu {\n            padding-left: 4em;\n            @media screen and (max-width: 1200px) {\n                padding-left: 1em; }\n            @media screen and (max-width: 720px) {\n                padding-left: 0em;\n                grid-column: 1 / span 6 ; }\n            .lev-1 {\n                grid-template-columns: auto auto;\n                @media screen and (min-width: 480px) {\n                    grid-template-columns: auto auto auto; }\n                @media screen and (min-width: 480px) {\n                    grid-template-columns: auto auto auto auto; }\n                @media screen and (min-width: 720px) {\n                    grid-template-columns: auto auto; }\n                @media screen and (min-width: 972px) {\n                    grid-template-columns: auto auto auto auto; } } }\n        .credit {\n            display: grid;\n            grid-gap: 1.25em;\n            grid-template-columns: 2.75em auto; }\n        .menu {\n            div.n-1 {\n                font-size: .95em;\n                font-weight: 600;\n                margin: 0 0 10px 0; } } } }\n\n"
