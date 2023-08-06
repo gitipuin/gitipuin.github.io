@@ -1,0 +1,15 @@
+{
+	"version": 3,
+	"file": "docus.css",
+	"sourceRoot": "/home/karim/Productions/uin-ipi/engine",
+	"sources": [
+		"themes/docus/assets/sass/docus.sass",
+		"themes/docus/assets/sass/asside.sass"
+	],
+	"sourcesContent": [
+		"@import \"asside\";\n",
+		".docs .aside_inner {\n    li, .toc_item {\n        list-style: none; }\n    .toc_item ul {\n        padding-inline-start: 0px; } }\n"
+	],
+	"names": [],
+	"mappings": "ACAA,AACI,KADC,CAAC,YAAY,CACd,EAAE,CADN,KAAK,CAAC,YAAY,CACV,SAAS,AAAC,CACV,UAAU,CAAE,IAAI,CAAG,AAF3B,AAGI,KAHC,CAAC,YAAY,CAGd,SAAS,CAAC,EAAE,AAAC,CACT,oBAAoB,CAAE,GAAG,CAAG"
+}

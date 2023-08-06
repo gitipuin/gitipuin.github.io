@@ -1,0 +1,971 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mermaid | Ilmu Perpustakaan</title><meta name="description" content="Generate diagrams, flowcharts, and piecharts  from text in a similar manner as markdown."><meta property="og:title" content="Mermaid" />
+<meta property="og:description" content="Generate diagrams, flowcharts, and piecharts  from text in a similar manner as markdown." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://uin-ipi.github.io/docs/compose/mermaid/" /><meta property="article:section" content="docs" />
+
+
+<meta itemprop="name" content="Mermaid">
+<meta itemprop="description" content="Generate diagrams, flowcharts, and piecharts  from text in a similar manner as markdown.">
+
+<meta itemprop="wordCount" content="1788">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Mermaid"/>
+<meta name="twitter:description" content="Generate diagrams, flowcharts, and piecharts  from text in a similar manner as markdown."/>
+<link rel="apple-touch-icon" sizes="180x180" href='https://uin-ipi.github.io/icons/favicons/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='https://uin-ipi.github.io/icons/favicons/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes="16x16" href='https://uin-ipi.github.io/icons/favicons/favicon-16x16.png'>
+<link rel="manifest" href='https://uin-ipi.github.io/icons/favicons/site.webmanifest'>
+<link rel="mask-icon" href='https://uin-ipi.github.io/icons/favicons/safari-pinned-tab.svg'  color="#004750">
+<link rel="shortcut icon" href='https://uin-ipi.github.io/icons/favicons/favicon.ico'>
+<meta name="msapplication-config" content='https://uin-ipi.github.io/icons/favicons/browserconfig.xml'><link rel="stylesheet" href="https://uin-ipi.github.io/css/based.fe946b014afab9e88ab639004d8d729c28e4720795582bfd4a5d14916a17c58c6c47566734993a4f0aa7fd55f13a2db7641a802ec05a76dd3c0748a6ba105600.css" integrity="">
+
+
+<link rel="stylesheet" href="https://uin-ipi.github.io/css/theme.8d04340b09554b10dd66246f823d3d58b5f8a76b29756588c9f01b8773b3d7929ab4030715ad64a2d6fb02c20ce44a2725cf748bea34a40c3d805ca644ce82bf.css" integrity=""><link rel="stylesheet" href="https://uin-ipi.github.io/css/docus.3ad4c120dd788477fe9e455b3a29c4fa91c5ee70f419126420cf8921c9da1e3789a4e123565a7a6ae1f36083bef2a7a7d38836e7662b5917333376a24acf4d54.css" integrity="">
+</head>
+<body class="page-page docs marbel" id="pagetop">
+	<header class="nav_header">
+<nav class="wrap nav menu">
+	<a href='https://uin-ipi.github.io/' class="nav_brand">
+<picture class="logo" data-lit="https://uin-ipi.github.io/icons/brands/logo-light.svg" data-dark="https://uin-ipi.github.io/icons/brands/logo-dark.svg">
+    <img src="https://uin-ipi.github.io/icons/brands/logo-light.svg" alt="Ilmu Perpustakaan Logo">
+</picture>
+
+		<label class="nav_toggle toggle" title='Site Menu' role="button">
+			<svg class="icon icon_harmburger">
+  <use href="#harmburger"></use>
+</svg>
+		</label>
+	</a>
+	<ul class="nav_body">
+		<li class="nav-item">
+	<div class="search">
+		<label for="find" class="search_label"><svg class="icon icon_search">
+  <use href="#search"></use>
+</svg>
+		</label>
+		
+		<input type="search" class="search_field  standardize-input" placeholder="Search site" id="find" autocomplete="off" data-scope='docs'>
+		<div class="search_results results"></div>
+	</div>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="https://uin-ipi.github.io/docs/"><span>Docs</span></a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="https://uin-ipi.github.io/tutorials/"><span>Tutorials</span></a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="https://almuhdilkarim.com"><span>Example</span></a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="https://uin-ipi.github.io/blog/"><span>Blog</span></a>
+		</li>
+		
+		<li class="nav-item"><div class=color_mode>
+  <label for=mode></label>
+  <input type="checkbox" class="color_choice standardize-input" id="mode" title="Toggle Dark Mode">
+</div>
+</li>
+	</ul>
+</nav>
+
+	</header>
+	<div class="main wrap pt-4">
+		<div class="content"><div class="grid-auto"><aside class="aside menu">
+  <div>
+    <label class="aside_toggle toggle" title='Docs Menu' role="button">Docs Menu <svg class="icon icon_carly">
+  <use href="#carly"></use>
+</svg></label>
+  </div>
+  <section class="section aside_inner">
+    <h2 class="section_title"><a  href="https://uin-ipi.github.io/docs/compose/" class="group">Compose Docs</a></h2>
+      <section class="" id="docs-compose-docs">
+				<h3 class="section_link"><a id="docs-install-theme" href="https://uin-ipi.github.io/docs/compose/install-theme/">Install theme</a></h3><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+      </ul>
+    </li>
+    <li><a href="#run-your-site-with-compose-theme">Run your site with compose theme</a>
+      <ul>
+        <li><a href="#option-1-my-favorite">Option 1 (my favorite)</a></li>
+        <li><a href="#option-2-recommended">Option 2 (recommended)</a></li>
+        <li><a href="#option-3-great-for-testing-quickly">Option 3 (Great for testing quickly)</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+				<h3 class="section_link"><a id="docs-use-forestry-cms" href="https://uin-ipi.github.io/docs/compose/use-forestry-cms/">Use forestry CMS</a></h3><nav id="TableOfContents">
+  <ul>
+    <li><a href="#prerequisites-">Prerequisites !!</a>
+      <ul>
+        <li><a href="#requirement-1--a-forestry-account">Requirement 1 : A Forestry account</a></li>
+        <li><a href="#requirement-2-a-netlify-account-_optional_">Requirement 2: A Netlify account <em>(optional)</em></a></li>
+        <li><a href="#step-1--fork-or-clone-compse-theme">Step 1 : Fork or Clone Compse theme</a></li>
+        <li><a href="#step-2--add-your-repository-in-forestry">Step 2 : Add your repository in Forestry</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+				<h3 class="section_link"><a id="docs-content-organization" href="https://uin-ipi.github.io/docs/compose/organize-content/">Content organization</a></h3><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+				<h3 class="section_link"><a id="docs-shortcodes" href="https://uin-ipi.github.io/docs/compose/shortcodes/">Shortcodes</a></h3><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#block">Block</a></li>
+        <li><a href="#column">Column</a></li>
+        <li><a href="#youtube-video">Youtube Video</a></li>
+        <li><a href="#button">Button</a></li>
+        <li><a href="#picture">Picture</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#tip">Tip</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+				<h3 class="section_link"><a id="docs-search-function" href="https://uin-ipi.github.io/docs/compose/search/">Search Function</a></h3><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#1-passive-search">1. Passive search</a></li>
+        <li><a href="#2-live-search">2. Live search</a></li>
+        <li><a href="#customize-search-feedback-labels">Customize search feedback labels</a></li>
+        <li><a href="#what-is-a-valid-search-query">What is a valid search query</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+				<h3 class="section_link active"><a id="docs-mermaid" href="https://uin-ipi.github.io/docs/compose/mermaid/">Mermaid</a></h3><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#sequence-diagrams">Sequence Diagrams</a></li>
+        <li><a href="#flow-charts">Flow Charts</a></li>
+        <li><a href="#graphs">Graphs</a></li>
+        <li><a href="#class-diagram">Class Diagram</a></li>
+        <li><a href="#state-diagram">State Diagram</a></li>
+        <li><a href="#relationship-diagrams">Relationship Diagrams</a></li>
+        <li><a href="#user-journey">User Journey</a></li>
+        <li><a href="#gantt">Gantt</a></li>
+        <li><a href="#pie-chart">Pie Chart</a></li>
+        <li><a href="#mindmap">Mindmap</a></li>
+        <li><a href="#timeline">Timeline</a></li>
+        <li><a href="#gitgraph">Gitgraph</a></li>
+        <li><a href="#requirement-diagram">Requirement Diagram</a></li>
+        <li><a href="#c4c-diagram">C4C Diagram</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+				<h3 class="section_link"><a id="docs-graphs-charts--dynamic-tables" href="https://uin-ipi.github.io/docs/compose/graphs-charts-tables/">Graphs, charts &amp; dynamic tables</a></h3><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+				<h3 class="section_link"><a id="docs-customize-layouts--components" href="https://uin-ipi.github.io/docs/compose/customize/">Customize layouts &amp; components</a></h3><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#shortcodes-modifiers">Shortcodes modifiers</a></li>
+        <li><a href="#how-do-i-disable-dark-mode">How do I disable dark mode?</a></li>
+        <li><a href="#how-do-i-change-the-theme-color">How do I change the theme color?</a></li>
+        <li><a href="#how-can-i-change-the-address-bar-color-on-mobile-devices">How can I change the address bar color on mobile devices?</a></li>
+        <li><a href="#how-do-i-add-custom-styles-scripts-meta-tags-etc">How do I add custom styles, scripts, meta tags e.t.c</a></li>
+        <li><a href="#i-want-to-add-custom-sass-or-js">I want to add custom SASS or JS</a></li>
+        <li><a href="#how-to-change-site-favicon">How to change site favicon</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+				<h3 class="section_link"><a id="docs-leverage-github-actions" href="https://uin-ipi.github.io/docs/compose/github-actions/">Leverage Github actions</a></h3><nav id="TableOfContents">
+  <ul>
+    <li><a href="#aws-ci">AWS CI</a></li>
+    <li><a href="#algolia-ci">Algolia CI</a></li>
+  </ul>
+</nav>
+      </section>
+  </section>
+</aside>
+
+  <main class="content">
+    <h1>Mermaid</h1><p><a href="https://mermaidjs.github.io/">Mermaid</a> is library that helps you generate diagrams, flowcharts, and piecharts  from text in a similar manner as markdown.</p>
+<p>With compose theme, you can use mermaid using a custom shortcode as follows:</p>
+<h3 id="sequence-diagrams">Sequence Diagrams</h3>
+<p><strong>Snippet</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tpl" data-lang="tpl"><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">mermaid</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span>sequenceDiagram
+</span></span><span style="display:flex;"><span>  participant Alice
+</span></span><span style="display:flex;"><span>  participant Bob
+</span></span><span style="display:flex;"><span>  Alice-&gt;&gt;John: Hello John, how are you?
+</span></span><span style="display:flex;"><span>  loop Healthcheck
+</span></span><span style="display:flex;"><span>      John-&gt;&gt;John: Fight against hypochondria
+</span></span><span style="display:flex;"><span>  end
+</span></span><span style="display:flex;"><span>  Note right of John: Rational thoughts&lt;br/&gt;prevail...
+</span></span><span style="display:flex;"><span>  John--&gt;&gt;Alice: Great!
+</span></span><span style="display:flex;"><span>  John-&gt;&gt;Bob: How about you?
+</span></span><span style="display:flex;"><span>  Bob--&gt;&gt;John: Jolly good!
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#f92672">/</span><span style="color:#a6e22e">mermaid</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
+</span></span></code></pre></div><p><strong>Result</strong></p>
+<div class="mermaid">
+sequenceDiagram
+  participant Alice
+  participant Bob
+  Alice->>John: Hello John, how are you?
+  loop Healthcheck
+      John->>John: Fight against hypochondria
+  end
+  Note right of John: Rational thoughts<br/>prevail...
+  John-->>Alice: Great!
+  John->>Bob: How about you?
+  Bob-->>John: Jolly good!
+</div>
+
+<h3 id="flow-charts">Flow Charts</h3>
+<p><strong>Snippet</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tpl" data-lang="tpl"><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">mermaid</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span>flowchart TB
+</span></span><span style="display:flex;"><span>  c1--&gt;a2
+</span></span><span style="display:flex;"><span>  subgraph one
+</span></span><span style="display:flex;"><span>  a1--&gt;a2
+</span></span><span style="display:flex;"><span>  end
+</span></span><span style="display:flex;"><span>  subgraph two
+</span></span><span style="display:flex;"><span>  b1--&gt;b2
+</span></span><span style="display:flex;"><span>  end
+</span></span><span style="display:flex;"><span>  subgraph three
+</span></span><span style="display:flex;"><span>  c1--&gt;c2
+</span></span><span style="display:flex;"><span>  end
+</span></span><span style="display:flex;"><span>  one --&gt; two
+</span></span><span style="display:flex;"><span>  three --&gt; two
+</span></span><span style="display:flex;"><span>  two --&gt; c2
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#f92672">/</span><span style="color:#a6e22e">mermaid</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
+</span></span></code></pre></div><p><strong>Result</strong></p>
+<div class="mermaid">
+flowchart TB
+  c1-->a2
+  subgraph one
+  a1-->a2
+  end
+  subgraph two
+  b1-->b2
+  end
+  subgraph three
+  c1-->c2
+  end
+  one --> two
+  three --> two
+  two --> c2
+</div>
+
+<h3 id="graphs">Graphs</h3>
+<p><strong>Snippet</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tpl" data-lang="tpl"><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">mermaid</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span>graph TB
+</span></span><span style="display:flex;"><span>  sq[Square shape] --&gt; ci((Circle shape))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  subgraph A
+</span></span><span style="display:flex;"><span>    od&gt;Odd shape]-- Two line&lt;br/&gt;edge comment --&gt; ro
+</span></span><span style="display:flex;"><span>    di<span style="color:#75715e">{</span><span style="color:#a6e22e">Diamond</span> <span style="color:#a6e22e">with</span> <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">br</span><span style="color:#f92672">/&gt;</span> <span style="color:#a6e22e">line</span> <span style="color:#a6e22e">break</span><span style="color:#75715e">}</span> -.-&gt; ro(Rounded&lt;br&gt;square&lt;br&gt;shape)
+</span></span><span style="display:flex;"><span>    di==&gt;ro2(Rounded square shape)
+</span></span><span style="display:flex;"><span>  end
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  %% Notice that no text in shape are added here instead that is appended further down
+</span></span><span style="display:flex;"><span>  e --&gt; od3&gt;Really long text with linebreak&lt;br&gt;in an Odd shape]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  %% Comments after double percent signs
+</span></span><span style="display:flex;"><span>  e((Inner / circle&lt;br&gt;and some odd &lt;br&gt;special characters)) --&gt; f(,.?!+-*ز)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  cyr[Cyrillic]--&gt;cyr2((Circle shape Начало));
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    classDef green fill:#9f6,stroke:#333,stroke-width:2px;
+</span></span><span style="display:flex;"><span>    classDef orange fill:#f96,stroke:#333,stroke-width:4px;
+</span></span><span style="display:flex;"><span>    class sq,e green
+</span></span><span style="display:flex;"><span>    class di orange
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#f92672">/</span><span style="color:#a6e22e">mermaid</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
+</span></span></code></pre></div><p><strong>Result</strong></p>
+<div class="mermaid">
+graph TB
+  sq[Square shape] --> ci((Circle shape))
+
+  subgraph A
+    od>Odd shape]-- Two line<br/>edge comment --> ro
+    di{Diamond with <br/> line break} -.-> ro(Rounded<br>square<br>shape)
+    di==>ro2(Rounded square shape)
+  end
+
+  %% Notice that no text in shape are added here instead that is appended further down
+  e --> od3>Really long text with linebreak<br>in an Odd shape]
+
+  %% Comments after double percent signs
+  e((Inner / circle<br>and some odd <br>special characters)) --> f(,.?!+-*ز)
+
+  cyr[Cyrillic]-->cyr2((Circle shape Начало));
+
+    classDef green fill:#9f6,stroke:#333,stroke-width:2px;
+    classDef orange fill:#f96,stroke:#333,stroke-width:4px;
+    class sq,e green
+    class di orange
+</div>
+
+<p><strong>Snippet</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tpl" data-lang="tpl"><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">mermaid</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span>graph LR
+</span></span><span style="display:flex;"><span>  A[Hard edge] --&gt;|Link text| B(Round edge)
+</span></span><span style="display:flex;"><span>  B --&gt; C<span style="color:#75715e">{</span><span style="color:#a6e22e">Decision</span><span style="color:#75715e">}</span>
+</span></span><span style="display:flex;"><span>  C --&gt;|One| D[Result one]
+</span></span><span style="display:flex;"><span>  C --&gt;|Two| E[Result two]
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#f92672">/</span><span style="color:#a6e22e">mermaid</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
+</span></span></code></pre></div><p><strong>Result</strong></p>
+<div class="mermaid">
+graph LR
+  A[Hard edge] -->|Link text| B(Round edge)
+  B --> C{Decision}
+  C -->|One| D[Result one]
+  C -->|Two| E[Result two]
+</div>
+
+<h3 id="class-diagram">Class Diagram</h3>
+<div class="mermaid">
+classDiagram
+  Animal <|-- Duck
+  Animal <|-- Fish
+  Animal <|-- Zebra
+  Animal : +int age
+  Animal : +String gender
+  Animal: +isMammal()
+  Animal: +mate()
+  class Duck{
+      +String beakColor
+      +swim()
+      +quack()
+  }
+  class Fish{
+      -int sizeInFeet
+      -canEat()
+  }
+  class Zebra{
+      +bool is_wild
+      +run()
+  }
+</div>
+
+<h3 id="state-diagram">State Diagram</h3>
+<div class="mermaid">
+stateDiagram-v2
+  [*] --> Active
+
+  state Active {
+    [*] --> NumLockOff
+    NumLockOff --> NumLockOn : EvNumLockPressed
+    NumLockOn --> NumLockOff : EvNumLockPressed
+    --
+    [*] --> CapsLockOff
+    CapsLockOff --> CapsLockOn : EvCapsLockPressed
+    CapsLockOn --> CapsLockOff : EvCapsLockPressed
+    --
+    [*] --> ScrollLockOff
+    ScrollLockOff --> ScrollLockOn : EvScrollLockPressed
+    ScrollLockOn --> ScrollLockOff : EvScrollLockPressed
+  }
+</div>
+
+<div class="mermaid">
+stateDiagram-v2
+  State1: The state with a note
+  note right of State1
+    Important information! You can write
+    notes.
+  end note
+  State1 --> State2
+  note left of State2 : This is the note to the left.
+</div>
+
+<h3 id="relationship-diagrams">Relationship Diagrams</h3>
+<p><strong>Snippet</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tpl" data-lang="tpl"><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">mermaid</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span>erDiagram
+</span></span><span style="display:flex;"><span>  CUSTOMER ||--o<span style="color:#75715e">{</span> <span style="color:#a6e22e">ORDER</span> <span style="color:#f92672">:</span> <span style="color:#a6e22e">places</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">ORDER</span> <span style="color:#f92672">||--|</span><span style="color:#75715e">{</span> <span style="color:#a6e22e">LINE</span><span style="color:#f92672">-</span><span style="color:#a6e22e">ITEM</span> <span style="color:#f92672">:</span> <span style="color:#a6e22e">contains</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">CUSTOMER</span> <span style="color:#75715e">}</span><span style="color:#f92672">|..|</span><span style="color:#75715e">{</span> <span style="color:#a6e22e">DELIVERY</span><span style="color:#f92672">-</span><span style="color:#a6e22e">ADDRESS</span> <span style="color:#f92672">:</span> <span style="color:#a6e22e">uses</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#f92672">/</span><span style="color:#a6e22e">mermaid</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
+</span></span></code></pre></div><p><strong>Result</strong></p>
+<div class="mermaid">
+erDiagram
+  CUSTOMER ||--o{ ORDER : places
+  ORDER ||--|{ LINE-ITEM : contains
+  CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+</div>
+
+<h3 id="user-journey">User Journey</h3>
+<p><strong>Snippet</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tpl" data-lang="tpl"><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">mermaid</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span>journey
+</span></span><span style="display:flex;"><span>  title My working day
+</span></span><span style="display:flex;"><span>  section Go to work
+</span></span><span style="display:flex;"><span>    Make tea: 5: Me
+</span></span><span style="display:flex;"><span>    Go upstairs: 3: Me
+</span></span><span style="display:flex;"><span>    Do work: 1: Me, Cat
+</span></span><span style="display:flex;"><span>  section Go home
+</span></span><span style="display:flex;"><span>    Go downstairs: 5: Me
+</span></span><span style="display:flex;"><span>    Sit down: 5: Me
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#f92672">/</span><span style="color:#a6e22e">mermaid</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
+</span></span></code></pre></div><p><strong>Result</strong></p>
+<div class="mermaid">
+journey
+  title My working day
+  section Go to work
+    Make tea: 5: Me
+    Go upstairs: 3: Me
+    Do work: 1: Me, Cat
+  section Go home
+    Go downstairs: 5: Me
+    Sit down: 5: Me
+</div>
+
+<h3 id="gantt">Gantt</h3>
+<p><strong>Snippet</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tpl" data-lang="tpl"><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">mermaid</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span>gantt
+</span></span><span style="display:flex;"><span>  dateFormat  YYYY-MM-DD
+</span></span><span style="display:flex;"><span>  title       Adding GANTT diagram functionality to mermaid
+</span></span><span style="display:flex;"><span>  excludes    weekends
+</span></span><span style="display:flex;"><span>  %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week (&#34;sunday&#34;) or &#34;weekends&#34;, but not the word &#34;weekdays&#34;.)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  section A section
+</span></span><span style="display:flex;"><span>  Completed task            :done,    des1, 2014-01-06,2014-01-08
+</span></span><span style="display:flex;"><span>  Active task               :active,  des2, 2014-01-09, 3d
+</span></span><span style="display:flex;"><span>  Future task               :         des3, after des2, 5d
+</span></span><span style="display:flex;"><span>  Future task2              :         des4, after des3, 5d
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  section Critical tasks
+</span></span><span style="display:flex;"><span>  Completed task in the critical line :crit, done, 2014-01-06,24h
+</span></span><span style="display:flex;"><span>  Implement parser and jison          :crit, done, after des1, 2d
+</span></span><span style="display:flex;"><span>  Create tests for parser             :crit, active, 3d
+</span></span><span style="display:flex;"><span>  Future task in critical line        :crit, 5d
+</span></span><span style="display:flex;"><span>  Create tests for renderer           :2d
+</span></span><span style="display:flex;"><span>  Add to mermaid                      :1d
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  section Documentation
+</span></span><span style="display:flex;"><span>  Describe gantt syntax               :active, a1, after des1, 3d
+</span></span><span style="display:flex;"><span>  Add gantt diagram to demo page      :after a1  , 20h
+</span></span><span style="display:flex;"><span>  Add another diagram to demo page    :doc1, after a1  , 48h
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  section Last section
+</span></span><span style="display:flex;"><span>  Describe gantt syntax               :after doc1, 3d
+</span></span><span style="display:flex;"><span>  Add gantt diagram to demo page      :20h
+</span></span><span style="display:flex;"><span>  Add another diagram to demo page    :48h
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#f92672">/</span><span style="color:#a6e22e">mermaid</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
+</span></span></code></pre></div><p><strong>Result</strong></p>
+<div class="mermaid">
+gantt
+  dateFormat  YYYY-MM-DD
+  title       Adding GANTT diagram functionality to mermaid
+  excludes    weekends
+  %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week ("sunday") or "weekends", but not the word "weekdays".)
+
+  section A section
+  Completed task            :done,    des1, 2014-01-06,2014-01-08
+  Active task               :active,  des2, 2014-01-09, 3d
+  Future task               :         des3, after des2, 5d
+  Future task2              :         des4, after des3, 5d
+
+  section Critical tasks
+  Completed task in the critical line :crit, done, 2014-01-06,24h
+  Implement parser and jison          :crit, done, after des1, 2d
+  Create tests for parser             :crit, active, 3d
+  Future task in critical line        :crit, 5d
+  Create tests for renderer           :2d
+  Add to mermaid                      :1d
+
+  section Documentation
+  Describe gantt syntax               :active, a1, after des1, 3d
+  Add gantt diagram to demo page      :after a1  , 20h
+  Add another diagram to demo page    :doc1, after a1  , 48h
+
+  section Last section
+  Describe gantt syntax               :after doc1, 3d
+  Add gantt diagram to demo page      :20h
+  Add another diagram to demo page    :48h
+</div>
+
+<h3 id="pie-chart">Pie Chart</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tpl" data-lang="tpl"><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">mermaid</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span>pie
+</span></span><span style="display:flex;"><span>  title Key elements in Product X
+</span></span><span style="display:flex;"><span>  &#34;Calcium&#34; : 42.96
+</span></span><span style="display:flex;"><span>  &#34;Potassium&#34; : 50.05
+</span></span><span style="display:flex;"><span>  &#34;Magnesium&#34; : 10.01
+</span></span><span style="display:flex;"><span>  &#34;Iron&#34; :  5
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#f92672">/</span><span style="color:#a6e22e">mermaid</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
+</span></span></code></pre></div><p><strong>Result</strong></p>
+<div class="mermaid">
+pie
+  title Key elements in Product X
+  "Calcium" : 42.96
+  "Potassium" : 50.05
+  "Magnesium" : 10.01
+  "Iron" :  5
+</div>
+
+<h3 id="mindmap">Mindmap</h3>
+<p><strong>Snippet</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tpl" data-lang="tpl"><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">mermaid</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span>mindmap
+</span></span><span style="display:flex;"><span>  root((mindmap))
+</span></span><span style="display:flex;"><span>    Origins
+</span></span><span style="display:flex;"><span>      Long history
+</span></span><span style="display:flex;"><span>      ::icon(fa fa-book)
+</span></span><span style="display:flex;"><span>      Popularisation
+</span></span><span style="display:flex;"><span>        British popular psychology author Tony Buzan
+</span></span><span style="display:flex;"><span>    Research
+</span></span><span style="display:flex;"><span>      On effectiveness&lt;br/&gt;and features
+</span></span><span style="display:flex;"><span>      On Automatic creation
+</span></span><span style="display:flex;"><span>        Uses
+</span></span><span style="display:flex;"><span>            Creative techniques
+</span></span><span style="display:flex;"><span>            Strategic planning
+</span></span><span style="display:flex;"><span>            Argument mapping
+</span></span><span style="display:flex;"><span>    Tools
+</span></span><span style="display:flex;"><span>      Pen and paper
+</span></span><span style="display:flex;"><span>      Mermaid
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#f92672">/</span><span style="color:#a6e22e">mermaid</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
+</span></span></code></pre></div><p><strong>Result</strong></p>
+<div class="mermaid">
+mindmap
+  root((mindmap))
+    Origins
+      Long history
+      ::icon(fa fa-book)
+      Popularisation
+        British popular psychology author Tony Buzan
+    Research
+      On effectiveness<br/>and features
+      On Automatic creation
+        Uses
+            Creative techniques
+            Strategic planning
+            Argument mapping
+    Tools
+      Pen and paper
+      Mermaid
+
+</div>
+
+<h3 id="timeline">Timeline</h3>
+<p><strong>Snippet I</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tpl" data-lang="tpl"><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">mermaid</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span>timeline
+</span></span><span style="display:flex;"><span>  title History of Social Media Platform
+</span></span><span style="display:flex;"><span>  2002 : LinkedIn
+</span></span><span style="display:flex;"><span>  2004 : Facebook : Google
+</span></span><span style="display:flex;"><span>  2005 : Youtube
+</span></span><span style="display:flex;"><span>  2006 : Twitter
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#f92672">/</span><span style="color:#a6e22e">mermaid</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
+</span></span></code></pre></div><p><strong>Result I</strong></p>
+<div class="mermaid">
+timeline
+  title History of Social Media Platform
+  2002 : LinkedIn
+  2004 : Facebook : Google
+  2005 : Youtube
+  2006 : Twitter
+</div>
+
+<p><strong>Snippet II</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tpl" data-lang="tpl"><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">mermaid</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span>timeline
+</span></span><span style="display:flex;"><span>  title MermaidChart 2023 Timeline
+</span></span><span style="display:flex;"><span>  section 2023 Q1 &lt;br&gt; Release Personal Tier
+</span></span><span style="display:flex;"><span>    Buttet 1 : sub-point 1a : sub-point 1b
+</span></span><span style="display:flex;"><span>      : sub-point 1c
+</span></span><span style="display:flex;"><span>    Bullet 2 : sub-point 2a : sub-point 2b
+</span></span><span style="display:flex;"><span>  section 2023 Q2 &lt;br&gt; Release XYZ Tier
+</span></span><span style="display:flex;"><span>    Buttet 3 : sub-point &lt;br&gt; 3a : sub-point 3b
+</span></span><span style="display:flex;"><span>      : sub-point 3c
+</span></span><span style="display:flex;"><span>    Bullet 4 : sub-point 4a : sub-point 4b
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#f92672">/</span><span style="color:#a6e22e">mermaid</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
+</span></span></code></pre></div><p><strong>Result II</strong>
+<div class="mermaid">
+timeline
+  title MermaidChart 2023 Timeline
+  section 2023 Q1 <br> Release Personal Tier
+    Buttet 1 : sub-point 1a : sub-point 1b
+      : sub-point 1c
+    Bullet 2 : sub-point 2a : sub-point 2b
+  section 2023 Q2 <br> Release XYZ Tier
+    Buttet 3 : sub-point <br> 3a : sub-point 3b
+      : sub-point 3c
+    Bullet 4 : sub-point 4a : sub-point 4b
+
+</div>
+</p>
+<h3 id="gitgraph">Gitgraph</h3>
+<p><strong>Snippet</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tpl" data-lang="tpl"><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">mermaid</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>title: Example Git diagram
+</span></span><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>gitGraph
+</span></span><span style="display:flex;"><span>   commit
+</span></span><span style="display:flex;"><span>   commit
+</span></span><span style="display:flex;"><span>   branch develop
+</span></span><span style="display:flex;"><span>   checkout develop
+</span></span><span style="display:flex;"><span>   commit
+</span></span><span style="display:flex;"><span>   commit
+</span></span><span style="display:flex;"><span>   checkout main
+</span></span><span style="display:flex;"><span>   merge develop
+</span></span><span style="display:flex;"><span>   commit
+</span></span><span style="display:flex;"><span>   commit
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#f92672">/</span><span style="color:#a6e22e">mermaid</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
+</span></span></code></pre></div><p><strong>Result</strong></p>
+<div class="mermaid">
+---
+title: Example Git diagram
+---
+gitGraph
+   commit
+   commit
+   branch develop
+   checkout develop
+   commit
+   commit
+   checkout main
+   merge develop
+   commit
+   commit
+
+</div>
+
+<h3 id="requirement-diagram">Requirement Diagram</h3>
+<p><strong>Snippet</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tpl" data-lang="tpl"><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">mermaid</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span>    requirementDiagram
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    requirement test_req <span style="color:#75715e">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">id</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">text</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">test</span> <span style="color:#a6e22e">text</span><span style="color:#f92672">.</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">risk</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">high</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">verifymethod</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">test</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    element test_entity <span style="color:#75715e">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">type</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">simulation</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    test_entity - satisfies -&gt; test_req
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#f92672">/</span><span style="color:#a6e22e">mermaid</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
+</span></span></code></pre></div><p><strong>Result</strong></p>
+<div class="mermaid">
+    requirementDiagram
+
+    requirement test_req {
+    id: 1
+    text: the test text.
+    risk: high
+    verifymethod: test
+    }
+
+    element test_entity {
+    type: simulation
+    }
+
+    test_entity - satisfies -> test_req
+</div>
+
+<h3 id="c4c-diagram">C4C Diagram</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tpl" data-lang="tpl"><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">mermaid</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span>    C4Context
+</span></span><span style="display:flex;"><span>      title System Context diagram for Internet Banking System
+</span></span><span style="display:flex;"><span>      Enterprise_Boundary(b0, &#34;BankBoundary0&#34;) <span style="color:#75715e">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">Person</span><span style="color:#f92672">(</span><span style="color:#a6e22e">customerA</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Banking Customer A&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;A customer of the bank, with personal bank accounts.&#34;</span><span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">Person</span><span style="color:#f92672">(</span><span style="color:#a6e22e">customerB</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Banking Customer B&#34;</span><span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">Person_Ext</span><span style="color:#f92672">(</span><span style="color:#a6e22e">customerC</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Banking Customer C&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;desc&#34;</span><span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">Person</span><span style="color:#f92672">(</span><span style="color:#a6e22e">customerD</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Banking Customer D&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;A customer of the bank, &lt;br/&gt; with personal bank accounts.&#34;</span><span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">System</span><span style="color:#f92672">(</span><span style="color:#a6e22e">SystemAA</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Internet Banking System&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Allows customers to view information about their bank accounts, and make payments.&#34;</span><span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">Enterprise_Boundary</span><span style="color:#f92672">(</span><span style="color:#a6e22e">b1</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;BankBoundary&#34;</span><span style="color:#f92672">)</span> <span style="color:#75715e">{</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>          <span style="color:#a6e22e">SystemDb_Ext</span><span style="color:#f92672">(</span><span style="color:#a6e22e">SystemE</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Mainframe Banking System&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Stores all of the core banking information about customers, accounts, transactions, etc.&#34;</span><span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>          <span style="color:#a6e22e">System_Boundary</span><span style="color:#f92672">(</span><span style="color:#a6e22e">b2</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;BankBoundary2&#34;</span><span style="color:#f92672">)</span> <span style="color:#75715e">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">System</span><span style="color:#f92672">(</span><span style="color:#a6e22e">SystemA</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Banking System A&#34;</span><span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">System</span><span style="color:#f92672">(</span><span style="color:#a6e22e">SystemB</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Banking System B&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;A system of the bank, with personal bank accounts. next line.&#34;</span><span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#75715e">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>          <span style="color:#a6e22e">System_Ext</span><span style="color:#f92672">(</span><span style="color:#a6e22e">SystemC</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;E-mail system&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;The internal Microsoft Exchange e-mail system.&#34;</span><span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#a6e22e">SystemDb</span><span style="color:#f92672">(</span><span style="color:#a6e22e">SystemD</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Banking System D Database&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;A system of the bank, with personal bank accounts.&#34;</span><span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>          <span style="color:#a6e22e">Boundary</span><span style="color:#f92672">(</span><span style="color:#a6e22e">b3</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;BankBoundary3&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;boundary&#34;</span><span style="color:#f92672">)</span> <span style="color:#75715e">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">SystemQueue</span><span style="color:#f92672">(</span><span style="color:#a6e22e">SystemF</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Banking System F Queue&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;A system of the bank.&#34;</span><span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">SystemQueue_Ext</span><span style="color:#f92672">(</span><span style="color:#a6e22e">SystemG</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Banking System G Queue&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;A system of the bank, with personal bank accounts.&#34;</span><span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#75715e">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">}</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      BiRel(customerA, SystemAA, &#34;Uses&#34;)
+</span></span><span style="display:flex;"><span>      BiRel(SystemAA, SystemE, &#34;Uses&#34;)
+</span></span><span style="display:flex;"><span>      Rel(SystemAA, SystemC, &#34;Sends e-mails&#34;, &#34;SMTP&#34;)
+</span></span><span style="display:flex;"><span>      Rel(SystemC, customerA, &#34;Sends e-mails to&#34;)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      UpdateElementStyle(customerA, $fontColor=&#34;red&#34;, $bgColor=&#34;grey&#34;, $borderColor=&#34;red&#34;)
+</span></span><span style="display:flex;"><span>      UpdateRelStyle(customerA, SystemAA, $textColor=&#34;blue&#34;, $lineColor=&#34;blue&#34;, $offsetX=&#34;5&#34;)
+</span></span><span style="display:flex;"><span>      UpdateRelStyle(SystemAA, SystemE, $textColor=&#34;blue&#34;, $lineColor=&#34;blue&#34;, $offsetY=&#34;-10&#34;)
+</span></span><span style="display:flex;"><span>      UpdateRelStyle(SystemAA, SystemC, $textColor=&#34;blue&#34;, $lineColor=&#34;blue&#34;, $offsetY=&#34;-40&#34;, $offsetX=&#34;-50&#34;)
+</span></span><span style="display:flex;"><span>      UpdateRelStyle(SystemC, customerA, $textColor=&#34;red&#34;, $lineColor=&#34;red&#34;, $offsetX=&#34;-50&#34;, $offsetY=&#34;20&#34;)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      UpdateLayoutConfig($c4ShapeInRow=&#34;3&#34;, $c4BoundaryInRow=&#34;1&#34;)
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#f92672">/</span><span style="color:#a6e22e">mermaid</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
+</span></span></code></pre></div><p><strong>Result</strong></p>
+<div class="mermaid">
+    C4Context
+      title System Context diagram for Internet Banking System
+      Enterprise_Boundary(b0, "BankBoundary0") {
+        Person(customerA, "Banking Customer A", "A customer of the bank, with personal bank accounts.")
+        Person(customerB, "Banking Customer B")
+        Person_Ext(customerC, "Banking Customer C", "desc")
+
+        Person(customerD, "Banking Customer D", "A customer of the bank, <br/> with personal bank accounts.")
+
+        System(SystemAA, "Internet Banking System", "Allows customers to view information about their bank accounts, and make payments.")
+
+        Enterprise_Boundary(b1, "BankBoundary") {
+
+          SystemDb_Ext(SystemE, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+
+          System_Boundary(b2, "BankBoundary2") {
+            System(SystemA, "Banking System A")
+            System(SystemB, "Banking System B", "A system of the bank, with personal bank accounts. next line.")
+          }
+
+          System_Ext(SystemC, "E-mail system", "The internal Microsoft Exchange e-mail system.")
+          SystemDb(SystemD, "Banking System D Database", "A system of the bank, with personal bank accounts.")
+
+          Boundary(b3, "BankBoundary3", "boundary") {
+            SystemQueue(SystemF, "Banking System F Queue", "A system of the bank.")
+            SystemQueue_Ext(SystemG, "Banking System G Queue", "A system of the bank, with personal bank accounts.")
+          }
+        }
+      }
+
+      BiRel(customerA, SystemAA, "Uses")
+      BiRel(SystemAA, SystemE, "Uses")
+      Rel(SystemAA, SystemC, "Sends e-mails", "SMTP")
+      Rel(SystemC, customerA, "Sends e-mails to")
+
+      UpdateElementStyle(customerA, $fontColor="red", $bgColor="grey", $borderColor="red")
+      UpdateRelStyle(customerA, SystemAA, $textColor="blue", $lineColor="blue", $offsetX="5")
+      UpdateRelStyle(SystemAA, SystemE, $textColor="blue", $lineColor="blue", $offsetY="-10")
+      UpdateRelStyle(SystemAA, SystemC, $textColor="blue", $lineColor="blue", $offsetY="-40", $offsetX="-50")
+      UpdateRelStyle(SystemC, customerA, $textColor="red", $lineColor="red", $offsetX="-50", $offsetY="20")
+
+      UpdateLayoutConfig($c4ShapeInRow="3", $c4BoundaryInRow="1")
+</div>
+
+
+    <div class="pager">
+  
+    
+    <div class="pager_item prev">
+      <a href="https://uin-ipi.github.io/docs/compose/search/" class="pager_link button" title="Search Function" rel="prev">
+        <span class="pager_label">Search Function</span>
+      </a>
+    </div>
+    
+  
+
+  
+    
+    <div class="pager_item next">
+      <a href="https://uin-ipi.github.io/docs/compose/graphs-charts-tables/" class="pager_link button" title="Graphs, charts &amp; dynamic tables" rel="next">
+        <span class="pager_label">Graphs, charts &amp; dynamic tables</span>
+      </a>
+    </div>
+    
+  
+</div>
+  </main>
+</div>
+
+
+		</div>
+	</div>
+	<footer class="pt-2 pb-2"><footer class="footer mt-2 pt-2 pb-2">
+	<div class="wrap grid-12">
+		<div class="upper">
+			<div class="credit">
+<picture class="logo" data-lit="https://uin-ipi.github.io/icons/brands/logo-light.svg" data-dark="https://uin-ipi.github.io/icons/brands/logo-dark.svg">
+    <img src="https://uin-ipi.github.io/icons/brands/logo-light.svg" alt="Ilmu Perpustakaan Logo">
+</picture>
+
+				<div class="name">
+					<h6 class="title">Lektor Media Utama</h6>
+					<p class="leads">Beyond Technology And Arts</p>
+				</div>
+			</div>
+			
+				<p class="address tx-sm">lantai 52 Tokopedia Tower Ciputra World 2, Jl. Prof. DR. Satrio No.3, Karet Semanggi, Kecamatan Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12950.</p>
+			
+			<div class="grid-2"><p class="contact tx-sm">021-032165</p><p class="contact tx-sm">yogo@fah.com</p></div>
+			<div class="social">
+			
+			
+			
+			</div>
+		</div><div class="menu">
+    <ul class="lev-1 grid-12">
+    
+        <li class="l-1">
+        
+            <div class="n-1">Footer 1</div>
+        
+        
+            <ul class="lev-2">
+            
+                <li class="l-2">
+                
+                    <a class="n-2" href="https://almuhdilkarim.com">external 1</a>
+                
+                
+                </li>
+            
+                <li class="l-2">
+                
+                    <a class="n-2" href="https://almuhdilkarim.com">external 2</a>
+                
+                
+                </li>
+            
+                <li class="l-2">
+                
+                    <a class="n-2" href="https://almuhdilkarim.com">external 3</a>
+                
+                
+                </li>
+            
+            </ul>
+        
+        </li>
+    
+        <li class="l-1">
+        
+            <div class="n-1">Footer 2</div>
+        
+        
+            <ul class="lev-2">
+            
+                <li class="l-2">
+                
+                    <a class="n-2" href="https://almuhdilkarim.com">Section 2 1</a>
+                
+                
+                </li>
+            
+                <li class="l-2">
+                
+                    <a class="n-2" href="https://almuhdilkarim.com">Section 2 2</a>
+                
+                
+                </li>
+            
+                <li class="l-2">
+                
+                    <a class="n-2" href="https://almuhdilkarim.com">Section 2 3</a>
+                
+                
+                </li>
+            
+            </ul>
+        
+        </li>
+    
+        <li class="l-1">
+        
+            <div class="n-1">Footer 3</div>
+        
+        
+            <ul class="lev-2">
+            
+                <li class="l-2">
+                
+                    <a class="n-2" href="https://almuhdilkarim.com">Section 3 1</a>
+                
+                
+                </li>
+            
+                <li class="l-2">
+                
+                    <a class="n-2" href="https://almuhdilkarim.com">Section 3 2</a>
+                
+                
+                </li>
+            
+                <li class="l-2">
+                
+                    <a class="n-2" href="https://almuhdilkarim.com">Section 3 3</a>
+                
+                
+                </li>
+            
+            </ul>
+        
+        </li>
+    
+        <li class="l-1">
+        
+            <div class="n-1">Footer 4</div>
+        
+        
+            <ul class="lev-2">
+            
+                <li class="l-2">
+                
+                    <a class="n-2" href="https://almuhdilkarim.com">Section 4 1</a>
+                
+                
+                </li>
+            
+                <li class="l-2">
+                
+                    <a class="n-2" href="https://almuhdilkarim.com">Section 4 2</a>
+                
+                
+                </li>
+            
+                <li class="l-2">
+                
+                    <a class="n-2" href="https://almuhdilkarim.com">Section 4 3</a>
+                
+                
+                </li>
+            
+            </ul>
+        
+        </li>
+    
+    </ul>
+</div>
+	</div>
+	<p class="developer tx-center tx-xs mt-2">&copy; <span class="year">2023</span> <a href ="https://almuhdilkarim.com/" target="_blank" rel="noopener">Al Muhdil Karim</a></p>
+	<a href="#pagetop" id="toTop" title=Back&#32;to&#32;top></a>
+</footer></footer></body>
+</html>

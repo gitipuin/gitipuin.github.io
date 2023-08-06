@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Customize layouts &amp; components | Ilmu Perpustakaan</title><meta name="description" content="basic configuration"><meta property="og:title" content="Customize layouts &amp; components" />
+<meta property="og:description" content="basic configuration" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://uin-ipi.github.io/docs/compose/customize/" /><meta property="article:section" content="docs" />
+
+
+<meta itemprop="name" content="Customize layouts &amp; components">
+<meta itemprop="description" content="basic configuration">
+
+<meta itemprop="wordCount" content="411">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Customize layouts &amp; components"/>
+<meta name="twitter:description" content="basic configuration"/>
+<link rel="apple-touch-icon" sizes="180x180" href='https://uin-ipi.github.io/icons/favicons/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='https://uin-ipi.github.io/icons/favicons/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes="16x16" href='https://uin-ipi.github.io/icons/favicons/favicon-16x16.png'>
+<link rel="manifest" href='https://uin-ipi.github.io/icons/favicons/site.webmanifest'>
+<link rel="mask-icon" href='https://uin-ipi.github.io/icons/favicons/safari-pinned-tab.svg'  color="#004750">
+<link rel="shortcut icon" href='https://uin-ipi.github.io/icons/favicons/favicon.ico'>
+<meta name="msapplication-config" content='https://uin-ipi.github.io/icons/favicons/browserconfig.xml'><link rel="stylesheet" href="https://uin-ipi.github.io/css/based.fe946b014afab9e88ab639004d8d729c28e4720795582bfd4a5d14916a17c58c6c47566734993a4f0aa7fd55f13a2db7641a802ec05a76dd3c0748a6ba105600.css" integrity="">
+
+
+<link rel="stylesheet" href="https://uin-ipi.github.io/css/theme.8d04340b09554b10dd66246f823d3d58b5f8a76b29756588c9f01b8773b3d7929ab4030715ad64a2d6fb02c20ce44a2725cf748bea34a40c3d805ca644ce82bf.css" integrity=""><link rel="stylesheet" href="https://uin-ipi.github.io/css/docus.3ad4c120dd788477fe9e455b3a29c4fa91c5ee70f419126420cf8921c9da1e3789a4e123565a7a6ae1f36083bef2a7a7d38836e7662b5917333376a24acf4d54.css" integrity="">
+</head>
+<body class="page-page docs marbel" id="pagetop">
+	<header class="nav_header">
+<nav class="wrap nav menu">
+	<a href='https://uin-ipi.github.io/' class="nav_brand">
+<picture class="logo" data-lit="https://uin-ipi.github.io/icons/brands/logo-light.svg" data-dark="https://uin-ipi.github.io/icons/brands/logo-dark.svg">
+    <img src="https://uin-ipi.github.io/icons/brands/logo-light.svg" alt="Ilmu Perpustakaan Logo">
+</picture>
+
+		<label class="nav_toggle toggle" title='Site Menu' role="button">
+			<svg class="icon icon_harmburger">
+  <use href="#harmburger"></use>
+</svg>
+		</label>
+	</a>
+	<ul class="nav_body">
+		<li class="nav-item">
+	<div class="search">
+		<label for="find" class="search_label"><svg class="icon icon_search">
+  <use href="#search"></use>
+</svg>
+		</label>
+		
+		<input type="search" class="search_field  standardize-input" placeholder="Search site" id="find" autocomplete="off" data-scope='docs'>
+		<div class="search_results results"></div>
+	</div>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="https://uin-ipi.github.io/docs/"><span>Docs</span></a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="https://uin-ipi.github.io/tutorials/"><span>Tutorials</span></a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="https://almuhdilkarim.com"><span>Example</span></a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="https://uin-ipi.github.io/blog/"><span>Blog</span></a>
+		</li>
+		
+		<li class="nav-item"><div class=color_mode>
+  <label for=mode></label>
+  <input type="checkbox" class="color_choice standardize-input" id="mode" title="Toggle Dark Mode">
+</div>
+</li>
+	</ul>
+</nav>
+
+	</header>
+	<div class="main wrap pt-4">
+		<div class="content"><div class="grid-auto"><aside class="aside menu">
+  <div>
+    <label class="aside_toggle toggle" title='Docs Menu' role="button">Docs Menu <svg class="icon icon_carly">
+  <use href="#carly"></use>
+</svg></label>
+  </div>
+  <section class="section aside_inner">
+    <h2 class="section_title"><a  href="https://uin-ipi.github.io/docs/compose/" class="group">Compose Docs</a></h2>
+      <section class="" id="docs-compose-docs">
+				<h3 class="section_link"><a id="docs-install-theme" href="https://uin-ipi.github.io/docs/compose/install-theme/">Install theme</a></h3><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+      </ul>
+    </li>
+    <li><a href="#run-your-site-with-compose-theme">Run your site with compose theme</a>
+      <ul>
+        <li><a href="#option-1-my-favorite">Option 1 (my favorite)</a></li>
+        <li><a href="#option-2-recommended">Option 2 (recommended)</a></li>
+        <li><a href="#option-3-great-for-testing-quickly">Option 3 (Great for testing quickly)</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+				<h3 class="section_link"><a id="docs-use-forestry-cms" href="https://uin-ipi.github.io/docs/compose/use-forestry-cms/">Use forestry CMS</a></h3><nav id="TableOfContents">
+  <ul>
+    <li><a href="#prerequisites-">Prerequisites !!</a>
+      <ul>
+        <li><a href="#requirement-1--a-forestry-account">Requirement 1 : A Forestry account</a></li>
+        <li><a href="#requirement-2-a-netlify-account-_optional_">Requirement 2: A Netlify account <em>(optional)</em></a></li>
+        <li><a href="#step-1--fork-or-clone-compse-theme">Step 1 : Fork or Clone Compse theme</a></li>
+        <li><a href="#step-2--add-your-repository-in-forestry">Step 2 : Add your repository in Forestry</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+				<h3 class="section_link"><a id="docs-content-organization" href="https://uin-ipi.github.io/docs/compose/organize-content/">Content organization</a></h3><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+				<h3 class="section_link"><a id="docs-shortcodes" href="https://uin-ipi.github.io/docs/compose/shortcodes/">Shortcodes</a></h3><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#block">Block</a></li>
+        <li><a href="#column">Column</a></li>
+        <li><a href="#youtube-video">Youtube Video</a></li>
+        <li><a href="#button">Button</a></li>
+        <li><a href="#picture">Picture</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#tip">Tip</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+				<h3 class="section_link"><a id="docs-search-function" href="https://uin-ipi.github.io/docs/compose/search/">Search Function</a></h3><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#1-passive-search">1. Passive search</a></li>
+        <li><a href="#2-live-search">2. Live search</a></li>
+        <li><a href="#customize-search-feedback-labels">Customize search feedback labels</a></li>
+        <li><a href="#what-is-a-valid-search-query">What is a valid search query</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+				<h3 class="section_link"><a id="docs-mermaid" href="https://uin-ipi.github.io/docs/compose/mermaid/">Mermaid</a></h3><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#sequence-diagrams">Sequence Diagrams</a></li>
+        <li><a href="#flow-charts">Flow Charts</a></li>
+        <li><a href="#graphs">Graphs</a></li>
+        <li><a href="#class-diagram">Class Diagram</a></li>
+        <li><a href="#state-diagram">State Diagram</a></li>
+        <li><a href="#relationship-diagrams">Relationship Diagrams</a></li>
+        <li><a href="#user-journey">User Journey</a></li>
+        <li><a href="#gantt">Gantt</a></li>
+        <li><a href="#pie-chart">Pie Chart</a></li>
+        <li><a href="#mindmap">Mindmap</a></li>
+        <li><a href="#timeline">Timeline</a></li>
+        <li><a href="#gitgraph">Gitgraph</a></li>
+        <li><a href="#requirement-diagram">Requirement Diagram</a></li>
+        <li><a href="#c4c-diagram">C4C Diagram</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+				<h3 class="section_link"><a id="docs-graphs-charts--dynamic-tables" href="https://uin-ipi.github.io/docs/compose/graphs-charts-tables/">Graphs, charts &amp; dynamic tables</a></h3><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+				<h3 class="section_link active"><a id="docs-customize-layouts--components" href="https://uin-ipi.github.io/docs/compose/customize/">Customize layouts &amp; components</a></h3><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#shortcodes-modifiers">Shortcodes modifiers</a></li>
+        <li><a href="#how-do-i-disable-dark-mode">How do I disable dark mode?</a></li>
+        <li><a href="#how-do-i-change-the-theme-color">How do I change the theme color?</a></li>
+        <li><a href="#how-can-i-change-the-address-bar-color-on-mobile-devices">How can I change the address bar color on mobile devices?</a></li>
+        <li><a href="#how-do-i-add-custom-styles-scripts-meta-tags-etc">How do I add custom styles, scripts, meta tags e.t.c</a></li>
+        <li><a href="#i-want-to-add-custom-sass-or-js">I want to add custom SASS or JS</a></li>
+        <li><a href="#how-to-change-site-favicon">How to change site favicon</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+				<h3 class="section_link"><a id="docs-leverage-github-actions" href="https://uin-ipi.github.io/docs/compose/github-actions/">Leverage Github actions</a></h3><nav id="TableOfContents">
+  <ul>
+    <li><a href="#aws-ci">AWS CI</a></li>
+    <li><a href="#algolia-ci">Algolia CI</a></li>
+  </ul>
+</nav>
+      </section>
+  </section>
+</aside>
+
+  <main class="content">
+    <h1>Customize layouts &amp; components</h1><h3 id="shortcodes-modifiers">Shortcodes modifiers</h3>
+<p>These modifiers are classes you can use with shortcodes to customize the look and feel of your layouts and components.</p>
+<h4 id="grid">Grid</h4>
+<table>
+<thead>
+<tr>
+<th>modifier</th>
+<th>space</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>grid-2</td>
+<td>2 columns</td>
+</tr>
+<tr>
+<td>grid-3</td>
+<td>3 columns</td>
+</tr>
+<tr>
+<td>grid-4</td>
+<td>4 columns</td>
+</tr>
+</tbody>
+</table>
+<h4 id="spacing">Spacing</h4>
+<table>
+<thead>
+<tr>
+<th>modifier</th>
+<th>space</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>mt-1</td>
+<td>1.5rem top margin</td>
+</tr>
+<tr>
+<td>mt-2</td>
+<td>3rem top margin</td>
+</tr>
+<tr>
+<td>mt-3</td>
+<td>4.5rem top margin</td>
+</tr>
+<tr>
+<td>mt-4</td>
+<td>6rem top margin</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>use pt-1 ~ pt-4 for top padding</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>modifier</th>
+<th>space</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>mb-1</td>
+<td>1.5rem bottom margin</td>
+</tr>
+<tr>
+<td>mb-2</td>
+<td>3rem bottom margin</td>
+</tr>
+<tr>
+<td>mb-3</td>
+<td>4.5rem bottom margin</td>
+</tr>
+<tr>
+<td>mb-4</td>
+<td>6rem bottom margin</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>use pb-1 ~ pb-4 for bottom padding</p>
+</blockquote>
+<h3 id="how-do-i-disable-dark-mode">How do I disable dark mode?</h3>
+<p>Under <code>params</code> add <code>enableDarkMode = false</code> to your <code>config.toml</code> file. If your site is based on the exampleSite, the value is already included; you only need to uncomment it.</p>
+<blockquote>
+<p>The user will still have the option to activate dark mode, if they so wish through the UI</p>
+</blockquote>
+<h3 id="how-do-i-change-the-theme-color">How do I change the theme color?</h3>
+<p>If the theme is a git submodule, you can copy the file <code>assets/sass/_variables.sass</code> from the theme into your own site.
+The location must be exactly the same as in the theme, so put it in <code>YourFancySite/assets/sass/</code>.
+You can then edit the file to customize the theme color in your site without having to modify the theme itself.</p>
+<h3 id="how-can-i-change-the-address-bar-color-on-mobile-devices">How can I change the address bar color on mobile devices?</h3>
+<p>Just put the following line in the <code>[params]</code> section in your <code>config.toml</code> file (and of course change the color):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#a6e22e">metaThemeColor</span> = <span style="color:#e6db74">&#34;#123456&#34;</span>
+</span></span></code></pre></div><h3 id="how-do-i-add-custom-styles-scripts-meta-tags-etc">How do I add custom styles, scripts, meta tags e.t.c</h3>
+<p>Use hooks. Ideally, you should not override the them directly.</p>
+<p>Instead, you should duplicate <a href="https://github.com/onweru/compose/tree/master/layouts/partials/hooks">these files</a> at the root of you site directory.</p>
+<ol>
+<li>layouts/partials/hooks/head.html</li>
+<li>layouts/partials/hooks/scripts.html</li>
+</ol>
+<p>The contents of the first file will be attached just before the <code>&lt;/head&gt;</code> tag.</p>
+<p>The contents of the second file will be attached just before the <code>&lt;/body&gt;</code> tag.</p>
+<p>Alternatively, if you want to use the <code>config.toml</code> to track your custom styles or scripts, declare them as slices under <code>[params]</code> like so:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>...
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">params</span>]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">customCSS</span> = [<span style="color:#a6e22e">styleURL1</span>, <span style="color:#a6e22e">styleURL2</span> ...]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">customJS</span> = [<span style="color:#a6e22e">scriptURL1</span>, <span style="color:#a6e22e">scriptURL2</span> ... ]
+</span></span><span style="display:flex;"><span>...
+</span></span></code></pre></div><h3 id="i-want-to-add-custom-sass-or-js">I want to add custom SASS or JS</h3>
+<p>Add custom SASS and JS via <a href="https://github.com/onweru/compose/blob/master/assets/sass/_custom.sass">this custom SASS file</a> and <a href="https://github.com/onweru/compose/hugo-compose/blob/master/assets/js/custom.js">this custom JavaScript file</a>.</p>
+<h3 id="how-to-change-site-favicon">How to change site favicon</h3>
+<p>Your favicons should be stored inside <code>static/favicons</code> directory.</p>
+<p>Here are some of the favicon files that you should have in that folder:</p>
+<pre tabindex="0"><code>.
+├── android-chrome-192x192.png
+├── android-chrome-512x512.png
+├── apple-touch-icon.png
+├── favicon-16x16.png
+├── favicon-32x32.png
+├── favicon.ico
+└── site.webmanifest
+</code></pre><p>We recommend you consider using this <a href="https://realfavicongenerator.net/">tool</a> while generating your favicons.</p>
+
+    <div class="pager">
+  
+    
+    <div class="pager_item prev">
+      <a href="https://uin-ipi.github.io/docs/compose/graphs-charts-tables/" class="pager_link button" title="Graphs, charts &amp; dynamic tables" rel="prev">
+        <span class="pager_label">Graphs, charts &amp; dynamic tables</span>
+      </a>
+    </div>
+    
+  
+
+  
+    
+    <div class="pager_item next">
+      <a href="https://uin-ipi.github.io/docs/compose/github-actions/" class="pager_link button" title="Leverage Github actions" rel="next">
+        <span class="pager_label">Leverage Github actions</span>
+      </a>
+    </div>
+    
+  
+</div>
+  </main>
+</div>
+
+
+		</div>
+	</div>
+	<footer class="pt-2 pb-2"><footer class="footer mt-2 pt-2 pb-2">
+	<div class="wrap grid-12">
+		<div class="upper">
+			<div class="credit">
+<picture class="logo" data-lit="https://uin-ipi.github.io/icons/brands/logo-light.svg" data-dark="https://uin-ipi.github.io/icons/brands/logo-dark.svg">
+    <img src="https://uin-ipi.github.io/icons/brands/logo-light.svg" alt="Ilmu Perpustakaan Logo">
+</picture>
+
+				<div class="name">
+					<h6 class="title">Lektor Media Utama</h6>
+					<p class="leads">Beyond Technology And Arts</p>
+				</div>
+			</div>
+			
+				<p class="address tx-sm">lantai 52 Tokopedia Tower Ciputra World 2, Jl. Prof. DR. Satrio No.3, Karet Semanggi, Kecamatan Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12950.</p>
+			
+			<div class="grid-2"><p class="contact tx-sm">021-032165</p><p class="contact tx-sm">yogo@fah.com</p></div>
+			<div class="social">
+			
+			
+			
+			</div>
+		</div><div class="menu">
+    <ul class="lev-1 grid-12">
+    
+        <li class="l-1">
+        
+            <div class="n-1">Footer 1</div>
+        
+        
+            <ul class="lev-2">
+            
+                <li class="l-2">
+                
+                    <a class="n-2" href="https://almuhdilkarim.com">external 1</a>
+                
+                
+                </li>
+            
+                <li class="l-2">
+                
+                    <a class="n-2" href="https://almuhdilkarim.com">external 2</a>
+                
+                
+                </li>
+            
+                <li class="l-2">
+                
+                    <a class="n-2" href="https://almuhdilkarim.com">external 3</a>
+                
+                
+                </li>
+            
+            </ul>
+        
+        </li>
+    
+        <li class="l-1">
+        
+            <div class="n-1">Footer 2</div>
+        
+        
+            <ul class="lev-2">
+            
+                <li class="l-2">
+                
+                    <a class="n-2" href="https://almuhdilkarim.com">Section 2 1</a>
+                
+                
+                </li>
+            
+                <li class="l-2">
+                
+                    <a class="n-2" href="https://almuhdilkarim.com">Section 2 2</a>
+                
+                
+                </li>
+            
+                <li class="l-2">
+                
+                    <a class="n-2" href="https://almuhdilkarim.com">Section 2 3</a>
+                
+                
+                </li>
+            
+            </ul>
+        
+        </li>
+    
+        <li class="l-1">
+        
+            <div class="n-1">Footer 3</div>
+        
+        
+            <ul class="lev-2">
+            
+                <li class="l-2">
+                
+                    <a class="n-2" href="https://almuhdilkarim.com">Section 3 1</a>
+                
+                
+                </li>
+            
+                <li class="l-2">
+                
+                    <a class="n-2" href="https://almuhdilkarim.com">Section 3 2</a>
+                
+                
+                </li>
+            
+                <li class="l-2">
+                
+                    <a class="n-2" href="https://almuhdilkarim.com">Section 3 3</a>
+                
+                
+                </li>
+            
+            </ul>
+        
+        </li>
+    
+        <li class="l-1">
+        
+            <div class="n-1">Footer 4</div>
+        
+        
+            <ul class="lev-2">
+            
+                <li class="l-2">
+                
+                    <a class="n-2" href="https://almuhdilkarim.com">Section 4 1</a>
+                
+                
+                </li>
+            
+                <li class="l-2">
+                
+                    <a class="n-2" href="https://almuhdilkarim.com">Section 4 2</a>
+                
+                
+                </li>
+            
+                <li class="l-2">
+                
+                    <a class="n-2" href="https://almuhdilkarim.com">Section 4 3</a>
+                
+                
+                </li>
+            
+            </ul>
+        
+        </li>
+    
+    </ul>
+</div>
+	</div>
+	<p class="developer tx-center tx-xs mt-2">&copy; <span class="year">2023</span> <a href ="https://almuhdilkarim.com/" target="_blank" rel="noopener">Al Muhdil Karim</a></p>
+	<a href="#pagetop" id="toTop" title=Back&#32;to&#32;top></a>
+</footer></footer></body>
+</html>
