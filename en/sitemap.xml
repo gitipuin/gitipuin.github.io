@@ -40,19 +40,33 @@
   </url><url>
     <loc>https://uin-ipi.github.io/docs/clarity/theme-overrides/</loc>
   </url><url>
-    <loc>https://uin-ipi.github.io/categories/</loc>
+    <loc>https://uin-ipi.github.io/news/berita-2/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://uin-ipi.github.io/news/berita-3/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://uin-ipi.github.io/canals/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://uin-ipi.github.io/id/categories/"
+                href="https://uin-ipi.github.io/id/canals/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://uin-ipi.github.io/categories/"
+                href="https://uin-ipi.github.io/canals/"
                 />
   </url><url>
+    <loc>https://uin-ipi.github.io/canals/cat-2/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://uin-ipi.github.io/canals/cat-3/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://uin-ipi.github.io/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
@@ -64,23 +78,18 @@
                 href="https://uin-ipi.github.io/"
                 />
   </url><url>
+    <loc>https://uin-ipi.github.io/news/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://uin-ipi.github.io/news/berita-1/</loc>
+    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://uin-ipi.github.io/canals/cat-1/</loc>
+    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://uin-ipi.github.io/course/</loc>
   </url><url>
-    <loc>https://uin-ipi.github.io/news/</loc>
-  </url><url>
     <loc>https://uin-ipi.github.io/search/</loc>
-  </url><url>
-    <loc>https://uin-ipi.github.io/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://uin-ipi.github.io/id/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://uin-ipi.github.io/tags/"
-                />
   </url><url>
     <loc>https://uin-ipi.github.io/test/</loc>
   </url>

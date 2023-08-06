@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://uin-ipi.github.io/id/categories/</loc>
+    <loc>https://uin-ipi.github.io/id/canals/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://uin-ipi.github.io/categories/"
+                href="https://uin-ipi.github.io/canals/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://uin-ipi.github.io/id/categories/"
+                href="https://uin-ipi.github.io/id/canals/"
                 />
   </url><url>
     <loc>https://uin-ipi.github.io/id/</loc>
@@ -24,18 +24,6 @@
                 rel="alternate"
                 hreflang="id"
                 href="https://uin-ipi.github.io/id/"
-                />
-  </url><url>
-    <loc>https://uin-ipi.github.io/id/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://uin-ipi.github.io/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://uin-ipi.github.io/id/tags/"
                 />
   </url>
 </urlset>
