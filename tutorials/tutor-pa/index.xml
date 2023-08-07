@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tutor pa on Ilmu Perpustakaan</title>
-    <link>https://uin-ipi.github.io/tutorials/tutor-pa/</link>
+    <link>https://ip.fah.uinjkt.ac.id/tutorials/tutor-pa/</link>
     <description>Recent content in tutor pa on Ilmu Perpustakaan</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://uin-ipi.github.io/tutorials/tutor-pa/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://ip.fah.uinjkt.ac.id/tutorials/tutor-pa/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>KArim 1</title>
-      <link>https://uin-ipi.github.io/tutorial/tutor-1/</link>
+      <link>https://ip.fah.uinjkt.ac.id/tutorial/tutor-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://uin-ipi.github.io/tutorial/tutor-1/</guid>
+      <guid>https://ip.fah.uinjkt.ac.id/tutorial/tutor-1/</guid>
       <description></description>
     </item>
     

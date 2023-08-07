@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Report on Ilmu Perpustakaan</title>
-    <link>https://uin-ipi.github.io/report/</link>
+    <link>https://ip.fah.uinjkt.ac.id/report/</link>
     <description>Recent content in Report on Ilmu Perpustakaan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://uin-ipi.github.io/report/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ip.fah.uinjkt.ac.id/report/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Report 2</title>
-      <link>https://uin-ipi.github.io/report/project-2/</link>
+      <link>https://ip.fah.uinjkt.ac.id/report/project-2/</link>
       <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://uin-ipi.github.io/report/project-2/</guid>
+      <guid>https://ip.fah.uinjkt.ac.id/report/project-2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Report 3</title>
-      <link>https://uin-ipi.github.io/report/project-3/</link>
+      <link>https://ip.fah.uinjkt.ac.id/report/project-3/</link>
       <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://uin-ipi.github.io/report/project-3/</guid>
+      <guid>https://ip.fah.uinjkt.ac.id/report/project-3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Report 1</title>
-      <link>https://uin-ipi.github.io/report/project-1/</link>
+      <link>https://ip.fah.uinjkt.ac.id/report/project-1/</link>
       <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://uin-ipi.github.io/report/project-1/</guid>
+      <guid>https://ip.fah.uinjkt.ac.id/report/project-1/</guid>
       <description></description>
     </item>
     

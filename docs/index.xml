@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Themes&#39; Docs on Ilmu Perpustakaan</title>
-    <link>https://uin-ipi.github.io/docs/</link>
+    <link>https://ip.fah.uinjkt.ac.id/docs/</link>
     <description>Recent content in Themes&#39; Docs on Ilmu Perpustakaan</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://uin-ipi.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://ip.fah.uinjkt.ac.id/docs/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>karim on Ilmu Perpustakaan</title>
-    <link>https://uin-ipi.github.io/users/</link>
+    <link>https://ip.fah.uinjkt.ac.id/users/</link>
     <description>Recent content in karim on Ilmu Perpustakaan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://uin-ipi.github.io/users/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ip.fah.uinjkt.ac.id/users/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>dean</title>
-      <link>https://uin-ipi.github.io/users/dean/</link>
+      <link>https://ip.fah.uinjkt.ac.id/users/dean/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://uin-ipi.github.io/users/dean/</guid>
+      <guid>https://ip.fah.uinjkt.ac.id/users/dean/</guid>
       <description></description>
     </item>
     
     <item>
       <title>manager 1</title>
-      <link>https://uin-ipi.github.io/users/manager-1/</link>
+      <link>https://ip.fah.uinjkt.ac.id/users/manager-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://uin-ipi.github.io/users/manager-1/</guid>
+      <guid>https://ip.fah.uinjkt.ac.id/users/manager-1/</guid>
       <description></description>
     </item>
     
