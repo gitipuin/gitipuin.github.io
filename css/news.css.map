@@ -8,8 +8,8 @@
 	],
 	"sourcesContent": [
 		"\n\n\n\n\n\n\n@import \"wired/subnav\";\n",
-		".wired-menu {\n    padding: 1em;\n    &.flex-row {\n        border-bottom: 1px solid #333;\n        width: 100%; }\n    .producer {\n        border-right: 1px solid #333;\n        padding-right: 1em;\n        font-weight: 600; } }\n"
+		".wired-menu {\n    padding: 1em;\n    &.flex-row {\n        border-bottom: 1px solid #333;\n        width: 100%; }\n    .title {\n        border-right: 1px solid #333;\n        padding-right: 1em;\n        font-weight: 600; } }\n"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,WAAW,AAAC,CACR,OAAO,CAAE,GAAG,CAOa,AAR7B,AAEI,WAFO,AAEN,SAAS,AAAC,CACP,aAAa,CAAE,cAAc,CAC7B,KAAK,CAAE,IAAI,CAAG,AAJtB,AAKI,WALO,CAKP,SAAS,AAAC,CACN,YAAY,CAAE,cAAc,CAC5B,aAAa,CAAE,GAAG,CAClB,WAAW,CAAE,GAAG,CAAG"
+	"mappings": "ACAA,AAAA,WAAW,AAAC,CACR,OAAO,CAAE,GAAG,CAOa,AAR7B,AAEI,WAFO,AAEN,SAAS,AAAC,CACP,aAAa,CAAE,cAAc,CAC7B,KAAK,CAAE,IAAI,CAAG,AAJtB,AAKI,WALO,CAKP,MAAM,AAAC,CACH,YAAY,CAAE,cAAc,CAC5B,aAAa,CAAE,GAAG,CAClB,WAAW,CAAE,GAAG,CAAG"
 }
