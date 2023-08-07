@@ -8,11 +8,29 @@
     <language>en</language>
     <lastBuildDate>Sat, 28 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://uin-ipi.github.io/courses/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>cat 1</title>
-      <link>https://uin-ipi.github.io/courses/cat-1/</link>
+      <title>C Programing</title>
+      <link>https://uin-ipi.github.io/courses/c-programing/</link>
       <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://uin-ipi.github.io/courses/cat-1/</guid>
+      <guid>https://uin-ipi.github.io/courses/c-programing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>infosec</title>
+      <link>https://uin-ipi.github.io/courses/infosec/</link>
+      <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://uin-ipi.github.io/courses/infosec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://uin-ipi.github.io/courses/python/</link>
+      <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://uin-ipi.github.io/courses/python/</guid>
       <description></description>
     </item>
     

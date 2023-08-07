@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://uin-ipi.github.io/id/canals/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://uin-ipi.github.io/canals/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://uin-ipi.github.io/id/canals/"
-                />
-  </url><url>
     <loc>https://uin-ipi.github.io/id/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -38,6 +26,18 @@
                 href="https://uin-ipi.github.io/id/courses/"
                 />
   </url><url>
+    <loc>https://uin-ipi.github.io/id/events/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uin-ipi.github.io/events/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://uin-ipi.github.io/id/events/"
+                />
+  </url><url>
     <loc>https://uin-ipi.github.io/id/</loc>
     <xhtml:link
                 rel="alternate"
@@ -50,6 +50,18 @@
                 href="https://uin-ipi.github.io/id/"
                 />
   </url><url>
+    <loc>https://uin-ipi.github.io/id/news/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uin-ipi.github.io/news/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://uin-ipi.github.io/id/news/"
+                />
+  </url><url>
     <loc>https://uin-ipi.github.io/id/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -60,6 +72,18 @@
                 rel="alternate"
                 hreflang="id"
                 href="https://uin-ipi.github.io/id/tags/"
+                />
+  </url><url>
+    <loc>https://uin-ipi.github.io/id/tutorials/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uin-ipi.github.io/tutorials/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://uin-ipi.github.io/id/tutorials/"
                 />
   </url>
 </urlset>

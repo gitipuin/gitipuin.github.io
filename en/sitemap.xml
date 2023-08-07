@@ -4,6 +4,12 @@
   <url>
     <loc>https://uin-ipi.github.io/docs/compose/</loc>
   </url><url>
+    <loc>https://uin-ipi.github.io/event/</loc>
+  </url><url>
+    <loc>https://uin-ipi.github.io/event/event-1/</loc>
+  </url><url>
+    <loc>https://uin-ipi.github.io/event/event-2/</loc>
+  </url><url>
     <loc>https://uin-ipi.github.io/docs/</loc>
   </url><url>
     <loc>https://uin-ipi.github.io/docs/compose/install-theme/</loc>
@@ -46,26 +52,10 @@
     <loc>https://uin-ipi.github.io/news/berita-3/</loc>
     <lastmod>2023-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://uin-ipi.github.io/canals/</loc>
-    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://uin-ipi.github.io/id/canals/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://uin-ipi.github.io/canals/"
-                />
-  </url><url>
-    <loc>https://uin-ipi.github.io/canals/cat-2/</loc>
+    <loc>https://uin-ipi.github.io/news/cat-3/</loc>
     <lastmod>2023-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://uin-ipi.github.io/canals/cat-3/</loc>
-    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://uin-ipi.github.io/course/couse/</loc>
+    <loc>https://uin-ipi.github.io/news/cat-7/</loc>
     <lastmod>2023-02-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://uin-ipi.github.io/</loc>
@@ -81,16 +71,16 @@
                 href="https://uin-ipi.github.io/"
                 />
   </url><url>
-    <loc>https://uin-ipi.github.io/course/</loc>
+    <loc>https://uin-ipi.github.io/news/</loc>
     <lastmod>2023-02-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://uin-ipi.github.io/news/berita-1/</loc>
     <lastmod>2023-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://uin-ipi.github.io/courses/cat-1/</loc>
+    <loc>https://uin-ipi.github.io/courses/c-programing/</loc>
     <lastmod>2023-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://uin-ipi.github.io/canals/cat-1/</loc>
+    <loc>https://uin-ipi.github.io/news/cat-1/</loc>
     <lastmod>2023-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://uin-ipi.github.io/course/course-1/</loc>
@@ -115,7 +105,26 @@
                 href="https://uin-ipi.github.io/courses/"
                 />
   </url><url>
+    <loc>https://uin-ipi.github.io/courses/infosec/</loc>
+    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://uin-ipi.github.io/course/</loc>
+    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://uin-ipi.github.io/news/</loc>
+    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://uin-ipi.github.io/id/news/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uin-ipi.github.io/news/"
+                />
+  </url><url>
+    <loc>https://uin-ipi.github.io/tutorial/</loc>
     <lastmod>2023-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://uin-ipi.github.io/course/course-1/session-1/module-1/</loc>
@@ -136,6 +145,9 @@
     <loc>https://uin-ipi.github.io/course/course-1/session-3/module-2/</loc>
     <lastmod>2023-01-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://uin-ipi.github.io/courses/python/</loc>
+    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://uin-ipi.github.io/course/course-1/session-1/</loc>
     <lastmod>2023-01-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -144,6 +156,8 @@
   </url><url>
     <loc>https://uin-ipi.github.io/course/course-1/session-3/</loc>
     <lastmod>2023-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://uin-ipi.github.io/events/bootcamp/</loc>
   </url><url>
     <loc>https://uin-ipi.github.io/categories/</loc>
     <xhtml:link
@@ -157,7 +171,25 @@
                 href="https://uin-ipi.github.io/categories/"
                 />
   </url><url>
+    <loc>https://uin-ipi.github.io/events/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://uin-ipi.github.io/id/events/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uin-ipi.github.io/events/"
+                />
+  </url><url>
+    <loc>https://uin-ipi.github.io/tutorial/tutor-1/</loc>
+  </url><url>
+    <loc>https://uin-ipi.github.io/tutorial/tutor-2/</loc>
+  </url><url>
     <loc>https://uin-ipi.github.io/search/</loc>
+  </url><url>
+    <loc>https://uin-ipi.github.io/events/seminar/</loc>
   </url><url>
     <loc>https://uin-ipi.github.io/tags/</loc>
     <xhtml:link
@@ -172,5 +204,21 @@
                 />
   </url><url>
     <loc>https://uin-ipi.github.io/test/</loc>
+  </url><url>
+    <loc>https://uin-ipi.github.io/tutorials/tutor-pa/</loc>
+  </url><url>
+    <loc>https://uin-ipi.github.io/tutorials/tutor-za/</loc>
+  </url><url>
+    <loc>https://uin-ipi.github.io/tutorials/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://uin-ipi.github.io/id/tutorials/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uin-ipi.github.io/tutorials/"
+                />
   </url>
 </urlset>
