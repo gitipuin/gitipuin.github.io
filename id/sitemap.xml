@@ -26,6 +26,18 @@
                 href="https://uin-ipi.github.io/id/courses/"
                 />
   </url><url>
+    <loc>https://uin-ipi.github.io/id/docus/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uin-ipi.github.io/docus/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://uin-ipi.github.io/id/docus/"
+                />
+  </url><url>
     <loc>https://uin-ipi.github.io/id/events/</loc>
     <xhtml:link
                 rel="alternate"
@@ -62,6 +74,30 @@
                 href="https://uin-ipi.github.io/id/news/"
                 />
   </url><url>
+    <loc>https://uin-ipi.github.io/id/projects/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uin-ipi.github.io/projects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://uin-ipi.github.io/id/projects/"
+                />
+  </url><url>
+    <loc>https://uin-ipi.github.io/id/reports/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uin-ipi.github.io/reports/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://uin-ipi.github.io/id/reports/"
+                />
+  </url><url>
     <loc>https://uin-ipi.github.io/id/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -84,6 +120,18 @@
                 rel="alternate"
                 hreflang="id"
                 href="https://uin-ipi.github.io/id/tutorials/"
+                />
+  </url><url>
+    <loc>https://uin-ipi.github.io/id/users/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uin-ipi.github.io/users/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://uin-ipi.github.io/id/users/"
                 />
   </url>
 </urlset>

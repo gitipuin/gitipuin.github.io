@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>docs 1 on Ilmu Perpustakaan</title>
+    <link>https://uin-ipi.github.io/docus/docs-1/</link>
+    <description>Recent content in docs 1 on Ilmu Perpustakaan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://uin-ipi.github.io/docus/docs-1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Compose Docs</title>
+      <link>https://uin-ipi.github.io/docs/compose/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uin-ipi.github.io/docs/compose/</guid>
+      <description>Welcome to the Compose theme user guide! This guide shows you how to get started creating technical documentation sites using Compose, including site customization and how to use Compose&amp;rsquo;s blocks and templates.
+Get started now </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -74,6 +74,56 @@
     <loc>https://uin-ipi.github.io/news/</loc>
     <lastmod>2023-02-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://uin-ipi.github.io/projects/project-2/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://uin-ipi.github.io/project/project-2/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://uin-ipi.github.io/projects/project-3/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://uin-ipi.github.io/project/project-3/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://uin-ipi.github.io/projects/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://uin-ipi.github.io/id/projects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uin-ipi.github.io/projects/"
+                />
+  </url><url>
+    <loc>https://uin-ipi.github.io/report/project-2/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://uin-ipi.github.io/reports/report-3/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://uin-ipi.github.io/report/project-3/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://uin-ipi.github.io/reports/report-7/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://uin-ipi.github.io/reports/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://uin-ipi.github.io/id/reports/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uin-ipi.github.io/reports/"
+                />
+  </url><url>
     <loc>https://uin-ipi.github.io/news/berita-1/</loc>
     <lastmod>2023-01-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -127,6 +177,19 @@
     <loc>https://uin-ipi.github.io/tutorial/</loc>
     <lastmod>2023-01-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://uin-ipi.github.io/users/</loc>
+    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://uin-ipi.github.io/id/users/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uin-ipi.github.io/users/"
+                />
+  </url><url>
     <loc>https://uin-ipi.github.io/course/course-1/session-1/module-1/</loc>
     <lastmod>2023-01-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -145,7 +208,25 @@
     <loc>https://uin-ipi.github.io/course/course-1/session-3/module-2/</loc>
     <lastmod>2023-01-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://uin-ipi.github.io/project/</loc>
+    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://uin-ipi.github.io/projects/project-1/</loc>
+    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://uin-ipi.github.io/project/project-1/</loc>
+    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://uin-ipi.github.io/courses/python/</loc>
+    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://uin-ipi.github.io/report/</loc>
+    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://uin-ipi.github.io/reports/report-1/</loc>
+    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://uin-ipi.github.io/report/project-1/</loc>
     <lastmod>2023-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://uin-ipi.github.io/course/course-1/session-1/</loc>
@@ -171,6 +252,24 @@
                 href="https://uin-ipi.github.io/categories/"
                 />
   </url><url>
+    <loc>https://uin-ipi.github.io/users/dean/</loc>
+  </url><url>
+    <loc>https://uin-ipi.github.io/docus/docs-1/</loc>
+  </url><url>
+    <loc>https://uin-ipi.github.io/docus/docs-2/</loc>
+  </url><url>
+    <loc>https://uin-ipi.github.io/docus/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://uin-ipi.github.io/id/docus/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://uin-ipi.github.io/docus/"
+                />
+  </url><url>
     <loc>https://uin-ipi.github.io/events/</loc>
     <xhtml:link
                 rel="alternate"
@@ -183,9 +282,15 @@
                 href="https://uin-ipi.github.io/events/"
                 />
   </url><url>
+    <loc>https://uin-ipi.github.io/users/users-1/</loc>
+  </url><url>
     <loc>https://uin-ipi.github.io/tutorial/tutor-1/</loc>
   </url><url>
     <loc>https://uin-ipi.github.io/tutorial/tutor-2/</loc>
+  </url><url>
+    <loc>https://uin-ipi.github.io/users/users-2/</loc>
+  </url><url>
+    <loc>https://uin-ipi.github.io/users/manager-1/</loc>
   </url><url>
     <loc>https://uin-ipi.github.io/search/</loc>
   </url><url>
@@ -220,5 +325,7 @@
                 hreflang="en"
                 href="https://uin-ipi.github.io/tutorials/"
                 />
+  </url><url>
+    <loc>https://uin-ipi.github.io/users/</loc>
   </url>
 </urlset>
