@@ -46,16 +46,65 @@
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/docs/clarity/theme-overrides/</loc>
   </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/news/berita-10/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/news/berita-11/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/news/berita-12/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/news/berita-13/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/news/berita-14/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/news/berita-15/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/news/berita-2/</loc>
     <lastmod>2023-02-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/news/berita-3/</loc>
     <lastmod>2023-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/news/cat-3/</loc>
+    <loc>https://ip.fah.uinjkt.ac.id/news/berita-4/</loc>
     <lastmod>2023-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/news/cat-7/</loc>
+    <loc>https://ip.fah.uinjkt.ac.id/news/berita-5/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/news/berita-6/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/news/berita-7/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/news/berita-8/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/news/berita-9/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/canals/bisnis/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/canals/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://ip.fah.uinjkt.ac.id/id/canals/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ip.fah.uinjkt.ac.id/canals/"
+                />
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/canals/ekonomi/</loc>
     <lastmod>2023-02-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/</loc>
@@ -71,7 +120,10 @@
                 href="https://ip.fah.uinjkt.ac.id/"
                 />
   </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/news/</loc>
+    <loc>https://ip.fah.uinjkt.ac.id/canals/olahraga/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/canals/politik/</loc>
     <lastmod>2023-02-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/projects/project-2/</loc>
@@ -124,13 +176,13 @@
                 href="https://ip.fah.uinjkt.ac.id/reports/"
                 />
   </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/canals/teknologi/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/news/berita-1/</loc>
     <lastmod>2023-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/courses/c-programing/</loc>
-    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/news/cat-1/</loc>
     <lastmod>2023-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/course/course-1/</loc>
@@ -163,16 +215,6 @@
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/news/</loc>
     <lastmod>2023-01-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://ip.fah.uinjkt.ac.id/id/news/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ip.fah.uinjkt.ac.id/news/"
-                />
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/tutorial/</loc>
     <lastmod>2023-01-28T00:00:00+00:00</lastmod>
