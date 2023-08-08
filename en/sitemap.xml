@@ -280,9 +280,36 @@
     <loc>https://ip.fah.uinjkt.ac.id/course/course-1/session-3/</loc>
     <lastmod>2023-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/events/bootcamp/</loc>
+    <loc>https://ip.fah.uinjkt.ac.id/blog/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/tags/emoji/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/blog/emoji-support/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/tags/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://ip.fah.uinjkt.ac.id/id/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ip.fah.uinjkt.ac.id/tags/"
+                />
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/blog/creating-a-new-theme/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/blog/goisforlovers/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/categories/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
@@ -293,6 +320,38 @@
                 hreflang="en"
                 href="https://ip.fah.uinjkt.ac.id/categories/"
                 />
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/tags/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/categories/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/blog/hugoisforlovers/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/tags/go/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/tags/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/categories/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/tags/hugo/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/tags/templates/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/tags/themes/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/blog/migrate-from-jekyll/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/events/bootcamp/</loc>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/users/dean/</loc>
   </url><url>
@@ -337,18 +396,6 @@
     <loc>https://ip.fah.uinjkt.ac.id/search/</loc>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/events/seminar/</loc>
-  </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://ip.fah.uinjkt.ac.id/id/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ip.fah.uinjkt.ac.id/tags/"
-                />
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/test/</loc>
   </url><url>

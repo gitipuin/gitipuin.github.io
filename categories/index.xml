@@ -5,6 +5,25 @@
     <link>https://ip.fah.uinjkt.ac.id/categories/</link>
     <description>Recent content in Categories on Ilmu Perpustakaan</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://ip.fah.uinjkt.ac.id/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://ip.fah.uinjkt.ac.id/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Development</title>
+      <link>https://ip.fah.uinjkt.ac.id/categories/development/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ip.fah.uinjkt.ac.id/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://ip.fah.uinjkt.ac.id/categories/golang/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ip.fah.uinjkt.ac.id/categories/golang/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
