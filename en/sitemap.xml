@@ -221,16 +221,6 @@
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/users/</loc>
     <lastmod>2023-01-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://ip.fah.uinjkt.ac.id/id/users/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ip.fah.uinjkt.ac.id/users/"
-                />
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/course/course-1/session-1/module-1/</loc>
     <lastmod>2023-01-28T00:00:00+00:00</lastmod>
@@ -351,9 +341,17 @@
     <loc>https://ip.fah.uinjkt.ac.id/blog/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/events/bootcamp/</loc>
+    <loc>https://ip.fah.uinjkt.ac.id/users/almuhdilkarim/activities/</loc>
   </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/users/dean/</loc>
+    <loc>https://ip.fah.uinjkt.ac.id/users/almuhdilkarim/contact/</loc>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/users/almuhdilkarim/project/</loc>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/users/almuhdilkarim/publication/</loc>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/users/almuhdilkarim/</loc>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/events/bootcamp/</loc>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/docus/docs-1/</loc>
   </url><url>
@@ -371,6 +369,8 @@
                 href="https://ip.fah.uinjkt.ac.id/docus/"
                 />
   </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/positions/dosen/</loc>
+  </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/events/</loc>
     <xhtml:link
                 rel="alternate"
@@ -383,15 +383,23 @@
                 href="https://ip.fah.uinjkt.ac.id/events/"
                 />
   </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/users/users-1/</loc>
-  </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/tutorial/tutor-1/</loc>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/tutorial/tutor-2/</loc>
   </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/users/users-2/</loc>
+    <loc>https://ip.fah.uinjkt.ac.id/positions/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://ip.fah.uinjkt.ac.id/id/positions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ip.fah.uinjkt.ac.id/positions/"
+                />
   </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/users/manager-1/</loc>
+    <loc>https://ip.fah.uinjkt.ac.id/users/pungkipurnomo/</loc>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/search/</loc>
   </url><url>
@@ -414,7 +422,5 @@
                 hreflang="en"
                 href="https://ip.fah.uinjkt.ac.id/tutorials/"
                 />
-  </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/users/</loc>
   </url>
 </urlset>

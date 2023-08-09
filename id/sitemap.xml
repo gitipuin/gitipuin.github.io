@@ -74,6 +74,18 @@
                 href="https://ip.fah.uinjkt.ac.id/id/"
                 />
   </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/id/positions/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ip.fah.uinjkt.ac.id/positions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://ip.fah.uinjkt.ac.id/id/positions/"
+                />
+  </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/id/projects/</loc>
     <xhtml:link
                 rel="alternate"
@@ -120,18 +132,6 @@
                 rel="alternate"
                 hreflang="id"
                 href="https://ip.fah.uinjkt.ac.id/id/tutorials/"
-                />
-  </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/id/users/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ip.fah.uinjkt.ac.id/users/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://ip.fah.uinjkt.ac.id/id/users/"
                 />
   </url>
 </urlset>
