@@ -1,0 +1,1 @@
+(()=>{(function(){if(screen.width<1024){let t=document.getElementById("open-action"),e=document.getElementById("news-menu");t.addEventListener("click",()=>{e.classList.add("modal"),e.classList.remove("hide-md")}),e.addEventListener("click",()=>{e.classList.remove("modal"),e.classList.add("hide-md")})}})()})()
