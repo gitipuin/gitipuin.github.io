@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Courses on Ilmu Perpustakaan</title>
+    <link>https://ip.fah.uinjkt.ac.id/courses/</link>
+    <description>Recent content in Courses on Ilmu Perpustakaan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 28 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ip.fah.uinjkt.ac.id/courses/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C Programing</title>
+      <link>https://ip.fah.uinjkt.ac.id/courses/c-programing/</link>
+      <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ip.fah.uinjkt.ac.id/courses/c-programing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>infosec</title>
+      <link>https://ip.fah.uinjkt.ac.id/courses/infosec/</link>
+      <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ip.fah.uinjkt.ac.id/courses/infosec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://ip.fah.uinjkt.ac.id/courses/python/</link>
+      <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ip.fah.uinjkt.ac.id/courses/python/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
