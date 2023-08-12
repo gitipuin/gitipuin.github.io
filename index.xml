@@ -513,33 +513,6 @@ Clone the Hugo repository Go into the repo Run hugo in server mode and build the
     
     <item>
       <title></title>
-      <link>https://ip.fah.uinjkt.ac.id/users/almuhdilkarim/activities/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ip.fah.uinjkt.ac.id/users/almuhdilkarim/activities/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://ip.fah.uinjkt.ac.id/users/almuhdilkarim/project/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ip.fah.uinjkt.ac.id/users/almuhdilkarim/project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://ip.fah.uinjkt.ac.id/users/almuhdilkarim/publication/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ip.fah.uinjkt.ac.id/users/almuhdilkarim/publication/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://ip.fah.uinjkt.ac.id/users/amirfadilah/activites/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -593,6 +566,15 @@ Clone the Hugo repository Go into the repo Run hugo in server mode and build the
     </item>
     
     <item>
+      <title>Activities</title>
+      <link>https://ip.fah.uinjkt.ac.id/users/almuhdilkarim/activities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ip.fah.uinjkt.ac.id/users/almuhdilkarim/activities/</guid>
+      <description>Activities</description>
+    </item>
+    
+    <item>
       <title>KArim 1</title>
       <link>https://ip.fah.uinjkt.ac.id/tutorial/tutor-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -608,6 +590,24 @@ Clone the Hugo repository Go into the repo Run hugo in server mode and build the
       
       <guid>https://ip.fah.uinjkt.ac.id/tutorial/tutor-2/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Project</title>
+      <link>https://ip.fah.uinjkt.ac.id/users/almuhdilkarim/project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ip.fah.uinjkt.ac.id/users/almuhdilkarim/project/</guid>
+      <description>Project</description>
+    </item>
+    
+    <item>
+      <title>Publication</title>
+      <link>https://ip.fah.uinjkt.ac.id/users/almuhdilkarim/publication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ip.fah.uinjkt.ac.id/users/almuhdilkarim/publication/</guid>
+      <description>Publication</description>
     </item>
     
     <item>
