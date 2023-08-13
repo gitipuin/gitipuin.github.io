@@ -122,6 +122,18 @@
                 href="https://ip.fah.uinjkt.ac.id/id/tags/"
                 />
   </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/id/topics/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ip.fah.uinjkt.ac.id/topics/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://ip.fah.uinjkt.ac.id/id/topics/"
+                />
+  </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/id/tutorials/</loc>
     <xhtml:link
                 rel="alternate"

@@ -463,6 +463,18 @@
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/test/</loc>
   </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/topics/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://ip.fah.uinjkt.ac.id/id/topics/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ip.fah.uinjkt.ac.id/topics/"
+                />
+  </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/tutorials/tutor-pa/</loc>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/tutorials/tutor-za/</loc>
