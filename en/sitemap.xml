@@ -377,6 +377,8 @@
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/events/bootcamp/</loc>
   </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/positions/dekan/</loc>
+  </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/docus/docs-1/</loc>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/docus/docs-2/</loc>
@@ -420,6 +422,8 @@
     <loc>https://ip.fah.uinjkt.ac.id/tutorial/tutor-1/</loc>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/tutorial/tutor-2/</loc>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/positions/kepala-jurusan/</loc>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/users/lilisudriawenny/</loc>
   </url><url>
@@ -474,5 +478,7 @@
                 hreflang="en"
                 href="https://ip.fah.uinjkt.ac.id/tutorials/"
                 />
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/positions/wakil-dekan-1/</loc>
   </url>
 </urlset>
