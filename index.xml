@@ -512,66 +512,66 @@ Clone the Hugo repository Go into the repo Run hugo in server mode and build the
     </item>
     
     <item>
-      <title></title>
-      <link>https://ip.fah.uinjkt.ac.id/users/amirfadilah/activites/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ip.fah.uinjkt.ac.id/users/amirfadilah/activites/</guid>
-      <description>Amir Fadhilah, S.Sos., M.Si </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://ip.fah.uinjkt.ac.id/users/fadhilatulhamdani/activities/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ip.fah.uinjkt.ac.id/users/fadhilatulhamdani/activities/</guid>
-      <description>Fadhilatul Hamdani, M.Hum Fadhilatul Hamdani melanjutkan kuliah SI di UIN Jakarta pada tahun 2003-2007, dan melanjutkan kuliah S2 di Universitas Indonesia atas beasiswa dari Ditjenpendis Kementerian Agama RI tahun 2009-2011 atas rekomendasi dari dekan Fakultas Adab dan Humaniora UIN Jakarta. Saat ini sebagai dosen tetap pada Prodi Ilmu Perpustakaan UIN Jakarta dari tahun 2015, setelah sebelumnya sebagai dosen tidak tetap dari 2008-2014, selain itu pada tahun 2005-2012 juga bekerja sebagai staf honorer di Pusdiklat Teknis Kementerian Agama RI.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://ip.fah.uinjkt.ac.id/users/fahmarianti/activities/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ip.fah.uinjkt.ac.id/users/fahmarianti/activities/</guid>
-      <description>Fahma Rianti, M.hum </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://ip.fah.uinjkt.ac.id/users/muhammadazwar/activities/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ip.fah.uinjkt.ac.id/users/muhammadazwar/activities/</guid>
-      <description>Muhammad Azwar, S.Pd.I, M.Hum </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://ip.fah.uinjkt.ac.id/users/pungkipurnomo/activities/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ip.fah.uinjkt.ac.id/users/pungkipurnomo/activities/</guid>
-      <description>Pungki Purnomo, MLIS </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://ip.fah.uinjkt.ac.id/users/riyanadiputra/activities/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ip.fah.uinjkt.ac.id/users/riyanadiputra/activities/</guid>
-      <description>Riyan Adi Putra, S. Hum, M. Hum. </description>
-    </item>
-    
-    <item>
       <title>Activities</title>
       <link>https://ip.fah.uinjkt.ac.id/users/almuhdilkarim/activities/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ip.fah.uinjkt.ac.id/users/almuhdilkarim/activities/</guid>
       <description>Not Available</description>
+    </item>
+    
+    <item>
+      <title>Activities</title>
+      <link>https://ip.fah.uinjkt.ac.id/users/amirfadilah/activites/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ip.fah.uinjkt.ac.id/users/amirfadilah/activites/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Activities</title>
+      <link>https://ip.fah.uinjkt.ac.id/users/fadhilatulhamdani/activities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ip.fah.uinjkt.ac.id/users/fadhilatulhamdani/activities/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Activities</title>
+      <link>https://ip.fah.uinjkt.ac.id/users/fahmarianti/activities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ip.fah.uinjkt.ac.id/users/fahmarianti/activities/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Activities</title>
+      <link>https://ip.fah.uinjkt.ac.id/users/muhammadazwar/activities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ip.fah.uinjkt.ac.id/users/muhammadazwar/activities/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Activities</title>
+      <link>https://ip.fah.uinjkt.ac.id/users/pungkipurnomo/activities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ip.fah.uinjkt.ac.id/users/pungkipurnomo/activities/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Activities</title>
+      <link>https://ip.fah.uinjkt.ac.id/users/riyanadiputra/activities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ip.fah.uinjkt.ac.id/users/riyanadiputra/activities/</guid>
+      <description></description>
     </item>
     
     <item>
