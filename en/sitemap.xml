@@ -219,9 +219,6 @@
     <loc>https://ip.fah.uinjkt.ac.id/tutorial/</loc>
     <lastmod>2023-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/users/</loc>
-    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/course/course-1/session-1/module-1/</loc>
     <lastmod>2023-01-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -268,6 +265,9 @@
     <lastmod>2023-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/course/course-1/session-3/</loc>
+    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/users/</loc>
     <lastmod>2023-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/blog/</loc>
