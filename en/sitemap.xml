@@ -2,13 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ip.fah.uinjkt.ac.id/docs/compose/</loc>
-  </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/event/</loc>
+    <lastmod>2023-03-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/event/event-1/</loc>
-  </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/event/event-2/</loc>
+    <loc>https://ip.fah.uinjkt.ac.id/docs/compose/</loc>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/docs/</loc>
   </url><url>
@@ -45,6 +42,44 @@
     <loc>https://ip.fah.uinjkt.ac.id/docs/clarity/syntax-highlighting/</loc>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/docs/clarity/theme-overrides/</loc>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/events/bootcamp/</loc>
+    <lastmod>2023-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/event/2023/02/event-1/</loc>
+    <lastmod>2023-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/event/2023/03/event-2/</loc>
+    <lastmod>2023-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/events/</loc>
+    <lastmod>2023-03-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://ip.fah.uinjkt.ac.id/id/events/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ip.fah.uinjkt.ac.id/events/"
+                />
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/</loc>
+    <lastmod>2023-03-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://ip.fah.uinjkt.ac.id/id/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ip.fah.uinjkt.ac.id/"
+                />
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/events/seminar/</loc>
+    <lastmod>2023-03-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/news/berita-10/</loc>
     <lastmod>2023-02-28T00:00:00+00:00</lastmod>
@@ -106,19 +141,6 @@
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/canals/ekonomi/</loc>
     <lastmod>2023-02-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/</loc>
-    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://ip.fah.uinjkt.ac.id/id/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ip.fah.uinjkt.ac.id/"
-                />
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/canals/olahraga/</loc>
     <lastmod>2023-02-28T00:00:00+00:00</lastmod>
@@ -182,6 +204,12 @@
     <loc>https://ip.fah.uinjkt.ac.id/news/berita-1/</loc>
     <lastmod>2023-01-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/article/</loc>
+    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/news/</loc>
+    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/courses/c-programing/</loc>
     <lastmod>2023-01-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -211,9 +239,6 @@
     <lastmod>2023-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/course/</loc>
-    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/news/</loc>
     <lastmod>2023-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/tutorial/</loc>
@@ -341,6 +366,8 @@
     <loc>https://ip.fah.uinjkt.ac.id/blog/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/event/2023/02/</loc>
+  </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/users/adeabdulhak/activities/</loc>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/users/almuhdilkarim/activities/</loc>
@@ -375,8 +402,6 @@
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/users/amirfadilah/</loc>
   </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/events/bootcamp/</loc>
-  </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/positions/dekan/</loc>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/docus/docs-1/</loc>
@@ -402,18 +427,6 @@
     <loc>https://ip.fah.uinjkt.ac.id/users/idafarida/</loc>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/users/pungkipurnomo/</loc>
-  </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/events/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://ip.fah.uinjkt.ac.id/id/events/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ip.fah.uinjkt.ac.id/events/"
-                />
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/users/fadhilatulhamdani/</loc>
   </url><url>
@@ -456,8 +469,6 @@
     <loc>https://ip.fah.uinjkt.ac.id/users/riyanadiputra/</loc>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/search/</loc>
-  </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/events/seminar/</loc>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/users/sitimaryam/</loc>
   </url><url>

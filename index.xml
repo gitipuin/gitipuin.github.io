@@ -6,25 +6,7 @@
     <description>Recent content in home on Ilmu Perpustakaan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ip.fah.uinjkt.ac.id/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Event 1</title>
-      <link>https://ip.fah.uinjkt.ac.id/event/event-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ip.fah.uinjkt.ac.id/event/event-1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Event 2</title>
-      <link>https://ip.fah.uinjkt.ac.id/event/event-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ip.fah.uinjkt.ac.id/event/event-2/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Tue, 28 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ip.fah.uinjkt.ac.id/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Install theme</title>
       <link>https://ip.fah.uinjkt.ac.id/docs/compose/install-theme/</link>
@@ -212,6 +194,24 @@ Mobile menu positioning The navigation menu when mobile browsing can be configur
       <guid>https://ip.fah.uinjkt.ac.id/docs/clarity/theme-overrides/</guid>
       <description>Custom CSS and JS To minimize HTTP requests per page, we would recommend loading CSS styles and JavaScript helpers in single bundles. That is to say, one CSS file and one JavaScript file. Using Hugo minify functions, these files will be minified to optimize the size.
 Going by the above 👆🏻 reason, we recommend adding custom CSS and JS via the custom SASS file (Compose, Clarity) and the custom JS file (Compose, Clarity).</description>
+    </item>
+    
+    <item>
+      <title>Event 1</title>
+      <link>https://ip.fah.uinjkt.ac.id/event/2023/02/event-1/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ip.fah.uinjkt.ac.id/event/2023/02/event-1/</guid>
+      <description>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
+    </item>
+    
+    <item>
+      <title>Event 2</title>
+      <link>https://ip.fah.uinjkt.ac.id/event/2023/03/event-2/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ip.fah.uinjkt.ac.id/event/2023/03/event-2/</guid>
+      <description>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
     </item>
     
     <item>
