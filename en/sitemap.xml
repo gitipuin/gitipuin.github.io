@@ -49,7 +49,22 @@
     <loc>https://ip.fah.uinjkt.ac.id/event/2023/02/event-1/</loc>
     <lastmod>2023-03-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/event/2023/04/event-1/</loc>
+    <lastmod>2023-03-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/event/2023/03/event-2/</loc>
+    <lastmod>2023-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/event/2023/02/</loc>
+    <lastmod>2023-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/event/2023/03/</loc>
+    <lastmod>2023-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/event/2023/04/</loc>
+    <lastmod>2023-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/event/2023/</loc>
     <lastmod>2023-03-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/events/</loc>
@@ -77,9 +92,6 @@
                 hreflang="en"
                 href="https://ip.fah.uinjkt.ac.id/"
                 />
-  </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/events/seminar/</loc>
-    <lastmod>2023-03-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/news/berita-10/</loc>
     <lastmod>2023-02-28T00:00:00+00:00</lastmod>
@@ -365,8 +377,6 @@
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/blog/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/event/2023/02/</loc>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/users/adeabdulhak/activities/</loc>
   </url><url>
