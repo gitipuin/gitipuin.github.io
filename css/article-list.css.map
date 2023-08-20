@@ -3,9 +3,9 @@
 	"file": "article-list.css",
 	"sourceRoot": "/home/karim/Productions/uin-ipi/engine",
 	"sources": [
-		"themes/article/assets/styles/list.sass",
-		"themes/article/assets/styles/_article/list.sass",
-		"themes/article/assets/styles/_article/parts/_leadshow.sass"
+		"themes/blog/assets/styles/list.sass",
+		"themes/blog/assets/styles/_article/list.sass",
+		"themes/blog/assets/styles/_article/parts/_leadshow.sass"
 	],
 	"sourcesContent": [
 		"\n\n\n\n@import \"_article/list\";\n",
