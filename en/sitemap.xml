@@ -139,19 +139,6 @@
     <loc>https://ip.fah.uinjkt.ac.id/event/2023/</loc>
     <lastmod>2023-03-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/events/</loc>
-    <lastmod>2023-03-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://ip.fah.uinjkt.ac.id/id/events/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ip.fah.uinjkt.ac.id/events/"
-                />
-  </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/</loc>
     <lastmod>2023-03-28T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -164,6 +151,9 @@
                 hreflang="en"
                 href="https://ip.fah.uinjkt.ac.id/"
                 />
+  </url><url>
+    <loc>https://ip.fah.uinjkt.ac.id/events/testing/</loc>
+    <lastmod>2023-03-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/event/2023/04/event-1/</loc>
     <lastmod>2023-03-28T00:00:00+00:00</lastmod>
@@ -237,19 +227,6 @@
     <loc>https://ip.fah.uinjkt.ac.id/canals/bisnis/</loc>
     <lastmod>2023-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/canals/</loc>
-    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://ip.fah.uinjkt.ac.id/id/canals/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ip.fah.uinjkt.ac.id/canals/"
-                />
-  </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/canals/ekonomi/</loc>
     <lastmod>2023-02-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -271,19 +248,6 @@
     <loc>https://ip.fah.uinjkt.ac.id/project/project-3/</loc>
     <lastmod>2023-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/projects/</loc>
-    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://ip.fah.uinjkt.ac.id/id/projects/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ip.fah.uinjkt.ac.id/projects/"
-                />
-  </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/report/project-2/</loc>
     <lastmod>2023-02-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -295,19 +259,6 @@
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/reports/report-7/</loc>
     <lastmod>2023-02-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/reports/</loc>
-    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://ip.fah.uinjkt.ac.id/id/reports/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ip.fah.uinjkt.ac.id/reports/"
-                />
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/canals/teknologi/</loc>
     <lastmod>2023-02-28T00:00:00+00:00</lastmod>
@@ -332,19 +283,6 @@
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/course/course-3/</loc>
     <lastmod>2023-01-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/courses/</loc>
-    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://ip.fah.uinjkt.ac.id/id/courses/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ip.fah.uinjkt.ac.id/courses/"
-                />
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/courses/infosec/</loc>
     <lastmod>2023-01-28T00:00:00+00:00</lastmod>
@@ -469,37 +407,11 @@
     <loc>https://ip.fah.uinjkt.ac.id/blog/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/tags/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://ip.fah.uinjkt.ac.id/id/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ip.fah.uinjkt.ac.id/tags/"
-                />
-  </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/blog/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/blog/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/categories/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://ip.fah.uinjkt.ac.id/id/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ip.fah.uinjkt.ac.id/categories/"
-                />
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
@@ -569,18 +481,6 @@
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/docus/docs-2/</loc>
   </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/docus/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://ip.fah.uinjkt.ac.id/id/docus/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ip.fah.uinjkt.ac.id/docus/"
-                />
-  </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/positions/dosen/</loc>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/users/adeabdulhak/</loc>
@@ -609,18 +509,6 @@
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/users/parhanhidayat/</loc>
   </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/positions/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://ip.fah.uinjkt.ac.id/id/positions/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ip.fah.uinjkt.ac.id/positions/"
-                />
-  </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/users/almuhdilkarim/project/</loc>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/users/almuhdilkarim/publication/</loc>
@@ -633,33 +521,9 @@
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/test/</loc>
   </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/topics/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://ip.fah.uinjkt.ac.id/id/topics/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ip.fah.uinjkt.ac.id/topics/"
-                />
-  </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/tutorials/tutor-pa/</loc>
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/tutorials/tutor-za/</loc>
-  </url><url>
-    <loc>https://ip.fah.uinjkt.ac.id/tutorials/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://ip.fah.uinjkt.ac.id/id/tutorials/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ip.fah.uinjkt.ac.id/tutorials/"
-                />
   </url><url>
     <loc>https://ip.fah.uinjkt.ac.id/positions/wakil-dekan-1/</loc>
   </url>
